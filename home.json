@@ -2,21 +2,23 @@
     "hero":{
         "heading": "Dùthchas Arainn",
         "subheading": "Managing island assets for community benefit",
-        "imageUrl": "imagse.jpg"
+        "imageUrl": "images/banner.jpg"
     },
-    "section1": {
-        "heading": "We are aquiring land for community benefit",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v"
+    "introduction": {
+        "heading": "We are a community benefit society",
+        "content": "Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage. \n\n \"Dùthchas\" is a Gaelic word that means a great many things, connection to land and people, the affinity to a place. Although Gaelic is much less prevalent on Arran in the 21st century, we believe that it is an important part of our island heritage, and that Dùthchas encompasses our connection to our island home."
     },
-    "section2":{
-        "heading": "Section 2 copy",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v",
-        "imageUrl": "images/600x400.svg"
+    "goals":{
+        "heading": "We aim to (amongst other aims!)",
+        "content": [
+            "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
+            "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities",
+            "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under researched landscape"
+        ]    
     },
-    "section3":{
-        "heading": "Section 3 copy",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v",
-        "imageUrl": "images/600x400.svg"
+    "register":{
+        "heading": "Register your interest in membership",
+        "content": "If you would like to get involved, leave your email with us and we will add you to our mailing list. We will notify you of any planned meetings and announcements."
     },
     "section4":{
         "heading": "Section 4 copy",
