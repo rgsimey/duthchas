@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Dùthchas Arainn</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+    <meta property="og:title" content="The Arran Pioneer Project CIC" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="We are helping to transform land use on Arran and across Scotland." />
+    <meta property="og:image" content="https://pioneerproject.scot/img/logo-orange.png" />
+    <meta property="og:image:secure_url" content="https://pioneerproject.scot/images/logo-orange.png" />
+    <meta property="og:url" content="https://pioneerproject.scot" />
+    <meta property="og:site_name" content="The Arran Pioneer Project CIC" />
+
+</head>
+
+<body class="landing is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">Dùthchas Arainn</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/projects/">Projects</a></li>
+                                <li><a href="/get-involved/">Get Involved</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="mainContent">
+            <script id="mainContentTemplate" type="text/x-handlebars-template">
+                <!-- Banner -->
+                <section id="banner">
+                    <div class="inner">
+                        <img class="image" src="{{hero.imageUrl}}" alt="" />
+                    </div>
+                    <div class="inner">
+                        <h2>{{hero.heading}}</h2>
+                        <p>{{hero.subheading}}</p>
+                    </div>
+                    <a href="#one" class="more scrolly">Learn More</a>
+                </section>
+
+                <!-- One -->
+                <section id="one" class="wrapper style1 special">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>{{section1.heading}}</h2>
+                            <p>{{section1.content}}</p>
+                        </header>
+                    </div>
+                </section>
+
+                <!-- Two -->
+                <section id="two" class="wrapper alt style2">
+                    <section class="spotlight">
+                        <div class="image"><img src="{{section2.imageUrl}}" alt="" /></div>
+                        <div class="content">
+                            <h2>{{section2.heading}}</h2>
+                            <p>{{section2.content}}</p>
+                        </div>
+                    </section>
+                    <section class="spotlight">
+                        <div class="image"><img src="{{section3.imageUrl}}" alt="" /></div>
+                        <div class="content">
+                            <h2>{{section3.heading}}</h2>
+                            <p>{{section3.content}}</p>
+                        </div>
+                    </section>
+                    <section class="spotlight">
+                        <div class="image"><img src="{{section4.imageUrl}}" alt="" /></div>
+                        <div class="content">
+                            <h2>{{section4.heading}}</h2>
+                            <p>{{section4.content}}</p>
+                        </div>
+                    </section>
+                </section>
+
+                <!-- CTA -->
+                <section id="cta" class="wrapper style4">
+                    <div class="inner">
+                        <header>
+                            <h2>{{section5.heading}}</h2>
+                            <p>{{section5.content}}</p>
+                        </header>
+                        <ul class="actions stacked">
+                            <li><a href="https://www.gofundme.com/f/the-arran-pioneer-project-cic"
+                                    class="button fit primary">Donate</a></li>
+                            <li><a href="our-work.html" class="button fit">Our Work</a></li>
+                            <li><a href="get-involved.html" class="button fit">Get Involved</a></li>
+                            <li><a href="mailto:arran@pioneerproject.scot" class="button fit">Email Us</a></li>
+                            <li><a href="https://eepurl.com/hQz2c5" class="button fit">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </script>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://twitter.com/arranpioneer" class="icon brands fa-twitter"><span
+                            class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/thearranpioneerproject/" class="icon brands fa-facebook-f"><span
+                            class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/arranpioneerproject/" class="icon brands fa-instagram"><span
+                            class="label">Instagram</span></a></li>
+                <li><a href="mailto:arran@pioneerproject.scot" class="icon solid fa-envelope"><span
+                            class="label">Email</span></a></li>
+            </ul>
+
+            <ul class="copyright">
+                <li><a href="https://eepurl.com/hQz2c5">Sign up to our Mailing List</a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; The Arran Pioneer Project CIC 2023 (Reg. 660280)</li>
+                <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a> using <a href="http://html5up.net">HTML5
+                        UP</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        fetch('home.json')
+            .then(response => response.json())
+            .then(data => {
+                const templateSource = document.getElementById('mainContentTemplate').innerHTML;
+                const template = Handlebars.compile(templateSource);
+                const compiledHtml = template(data);
+                document.getElementById('mainContent').innerHTML = compiledHtml; // Insert into the DOM
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('mainContent').innerHTML = '<p>Error loading data.</p>'; // Provide user feedback
+            });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Our Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+
+	<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+	<script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
+
+	<meta property="og:title" content="The Arran Pioneer Project CIC" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="We are helping to transform land use on Arran and across Scotland." />
+	<meta property="og:image" content="https://pioneerproject.scot/img/logo-orange.png" />
+	<meta property="og:image:secure_url" content="https://pioneerproject.scot/images/logo-orange.png" />
+	<meta property="og:url" content="https://pioneerproject.scot" />
+	<meta property="og:site_name" content="The Arran Pioneer Project CIC" />
+
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">Dùthchas Arainn</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/projects/">Projects</a></li>
+                                <li><a href="/get-involved/">Get Involved</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+		<!-- Main -->
+		<article id="main">
+			<header>
+				<h2>Our Projects</h2>
+				<p>Projects undertaken since March 2020</p>
+			</header>
+			<div class="wrapper style5" id="projects-container">
+				<script id="projects-template" type="text/x-handlebars-template">
+					<div class="inner">
+						{{#each projects}}
+							<div class="row">
+								<div class="col-2 col-12-medium">
+									<h4>{{title}}</h4>
+									<h6>{{date}}</h6>
+								</div>
+								<div class="col-10 col-12-medium">
+									<p>{{content}}</p>
+								</div>
+							</div>
+							<hr />
+						{{/each}}
+					</div>                  
+				</script>
+			</div>
+		</article>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="https://twitter.com/arranpioneer" class="icon brands fa-twitter"><span
+							class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/thearranpioneerproject/" class="icon brands fa-facebook-f"><span
+							class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/arranpioneerproject/" class="icon brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="mailto:arran@pioneerproject.scot" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li><a href="https://eepurl.com/hQz2c5">Sign up to our Mailing List</a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; The Arran Pioneer Project CIC 2023 (Reg. 660280)</li>
+				<li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a> using <a href="http://html5up.net">HTML5
+						UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.scrollex.min.js"></script>
+	<script src="../assets/js/jquery.scrolly.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+	<script>
+		fetch('projects.json')
+			.then(response => response.json())
+			.then(data => {
+				const templateSource = document.getElementById('projects-template').innerHTML;
+				const template = Handlebars.compile(templateSource);
+				const compiledHtml = template(data);
+				document.getElementById('projects-container').innerHTML = compiledHtml;
+			})
+			.catch(error => {
+				console.error('Error loading projects:', error);
+				document.getElementById('projects-container').innerHTML = '<p>Error loading projects data.</p>';
+			});
+	</script>
+
+</body>
+
+</html>

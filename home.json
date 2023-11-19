@@ -1,0 +1,31 @@
+{   
+    "hero":{
+        "heading": "Dùthchas Arainn",
+        "subheading": "Managing island assets for community benefit",
+        "imageUrl": "imagse.jpg"
+    },
+    "section1": {
+        "heading": "We are aquiring land for community benefit",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v"
+    },
+    "section2":{
+        "heading": "Section 2 copy",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v",
+        "imageUrl": "images/600x400.svg"
+    },
+    "section3":{
+        "heading": "Section 3 copy",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v",
+        "imageUrl": "images/600x400.svg"
+    },
+    "section4":{
+        "heading": "Section 4 copy",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v",
+        "imageUrl": "images/600x400.svg"
+    },
+    "section5":{
+        "heading": "Section 5 copy",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis tincidunt ultricies, nunc nisl lacinia nunc, quis aliquam nisl nunc v"
+    }
+  }
+  

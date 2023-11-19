@@ -1,0 +1,17 @@
+{
+    "title": "Dùthchas Arainn",
+    "menu": [
+        {
+            "title": "Home",
+            "url": "/"
+        },
+        {
+            "title": "Projects",
+            "url": "/projects"
+        },
+        {
+            "title": "Get Involved",
+            "url": "/get-involved"
+        }
+    ]
+}
