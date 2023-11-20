@@ -160,6 +160,7 @@ form input[type=email] {
   max-width: 25em;
   padding: 0.8em 0 0.8em 1em;
   margin: 0.5em 0;
+  box-sizing: border-box;
 }
 
 h3 + p, h3 + ul {
