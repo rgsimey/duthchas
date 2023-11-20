@@ -54,11 +54,10 @@
                 <!-- Banner -->
             <header id="banner" style="background-image:url('{{hero.imageUrl}}');">
                 <div>
-                    <div id="logo"></div>
                     <h1>{{hero.heading}}</h1>
                     <h2>{{hero.subheading}}</h2>
                 </div>
-                <a href="#introduction" class="more scrolly">Learn More</a>
+                <!-- <a href="#introduction" class="more scrolly">Learn More</a> -->
             </header>
 
             <!-- Introduction -->
@@ -66,6 +65,28 @@
                 <div>
                     <h3>{{introduction.heading}}</h3>
                     <p>{{{introduction.content}}}</p>
+                </div>
+            </section>
+
+            <!-- Dùthchas -->
+            <section id="duthchas">
+                <div>
+                    <p>{{{duthchas.content}}}</p>
+                </div>
+            </section>
+
+            <!-- Register -->
+            <section id="register">
+                <div>
+                    <h3>{{register.heading}}</h3>
+                    <p>{{register.content}}</p>
+                    <form id="registration-form" action="https://api.sheetmonkey.io/form/i9iiBMDbqxYcsf2dYCwyNu"
+                        method="post">
+                        <!-- <label>Your Name: <input type="text" name="Name" required /></label> -->
+                        <input placeholder="Your Email Address" type="email" name="Email" required />
+                        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                        <input type="submit" value="Register your interest" />
+                    </form>
                 </div>
             </section>
 
@@ -81,29 +102,14 @@
                 </div>
             </section>
 
-            <!-- Register -->
-            <section id="register">
-                <div>
-                    <h3>{{register.heading}}</h3>
-                    <p>{{register.content}}</p>
-                    <form id="registration-form" action="https://api.sheetmonkey.io/form/i9iiBMDbqxYcsf2dYCwyNu"
-                        method="post">
-                        <!-- <label>Your Name: <input type="text" name="Name" required /></label> -->
-                        <input placeholder="Your Email" type="email" name="Email" required />
-                        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-                        <input type="submit" value="Register your interest" />
-                    </form>
-                </div>
-            </section>
             </script>
         </main>
 
         <!-- Footer -->
         <footer id="footer">
-            <ul class="copyright">
-                <li>&copy; Dùthchas Arainn 2023</li>
+                <h3>&copy; Dùthchas Arainn 2023</h3>
+                <p>Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> & <a href="https://kelvindigital.co.uk/" target="_blank">Kelvin Digital</a></p>
                 <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
-            </ul>
         </footer>
     </div>
 

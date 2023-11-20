@@ -1,12 +1,13 @@
-$content_bg: #554766;
-$footer_bg: #2a2533;
+$content_bg: #5f50a1;
+$footer_bg: #2a184e;
+;
 
 $hero_text: #ffffff;
 $hero_text_shadow: #000000;
 
 $content_text: #dddddd;
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700;800&display=swap');
 
 html{
     font-family: 'Red Hat Display', sans-serif;
@@ -30,108 +31,57 @@ html{
 
 #banner {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     cursor: default;
-    height: 100vh;
-    min-height: 35em;
+    height: 85vh;
     overflow: hidden;
     position: relative;
     text-align: center;
     color: $hero_text;
-    text-shadow: 0 0 6px $hero_text_shadow;
     background-position: 60% 75%;
     background-size:cover;
 
     h1 {
         transform: scale(1);
-        transition: transform 0.5s ease, opacity 0.5s ease;
-        letter-spacing:3px;
+        transition: transform 0.5s ease, opacity 0.75s ease;
+        transition-delay: 0.25s;
+        letter-spacing:2px;
         display: inline-block;
-        font-size: 1.75em;
+        font-size: 3em;
         opacity: 1;
-        padding: 0.35em 1em;
         position: relative;
         z-index: 1;
+        // text-shadow: 0 0 3px grey;
+        line-height:1;
+        margin-bottom:0;
 
-        &:before, &:after {
-            transition: width 0.85s ease;
-            transition-delay: 0.25s;
-            background-color: $hero_text;
-            content: '';
-            display: block;
-            height: 2px;
-            position: absolute;
-            width: 100%;
-            box-shadow: 0 0 6px $hero_text_shadow;
-        }
 
-        &:before {
-            top: 0;
-            left: 0;
-        }
-
-        &:after {
-            bottom: 0;
-            right: 0;
-        }
     }
 
     h2 {
-        font-size:1em;
-        letter-spacing:1px;
-        font-weight:normal;
+        font-size:1.55em;
+        letter-spacing:0.5px;
+        font-weight:700;
         position:relative;
         z-index:1;
         opacity:1;
         transition: transform 0.5s ease, opacity 0.5s ease;
+        transition-delay: 0.25s;
+
+        color:#2a184e;
+        margin-top:0;
+        text-transform: uppercase;
 
         a {
             color: inherit;
         }
     }
 
-    .more {
-        transition: transform 0.75s ease, opacity 0.75s ease;
-        transition-delay: 3.5s;
-        transform: translateY(0);
-        border: none;
-        bottom: 0;
-        color: inherit;
-        font-size: 0.8em;
-        height: 8.5em;
-        left: 50%;
-        letter-spacing: _size(letter-spacing-alt);
-        margin-left: -8.5em;
-        opacity: 1;
-        outline: 0;
-        padding-left: _size(letter-spacing-alt);
-        position: absolute;
-        text-align: center;
-        text-transform: uppercase;
-        width: 16em;
-        z-index: 1;
-
-        &:after {
-            background-image: url('images/arrow.svg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            bottom: 4em;
-            content: '';
-            display: block;
-            height: 1.5em;
-            left: 50%;
-            margin: 0 0 0 -0.75em;
-            position: absolute;
-            width: 1.5em;
-        }
-    }
-
     &:after {
         pointer-events: none;
-        transition: opacity 2.5s ease-in-out;
-        transition-delay: 1.25s;
+        transition: opacity 2s ease-in-out;
+        transition-delay: 0.5s;
         content: '';
         background: #B6C0D2;
         display: block;
@@ -156,27 +106,16 @@ html{
     }
 
     @media screen and (max-width: 736px) {
-        padding: 7em 3em;
-        height: auto;
+        height: 500px;
+        max-height:85vh;
         min-height: 0;
-
-        h1 {
-            font-size: 1.25em;
-        }
-
-        br {
-            display: none;
-        }
-
-        .more {
-            display: none;
-        }
     }
 }
 
 body {
     background: white;
     margin:0;
+    text-align:center;
     &.is-preload {
         *, *:before, *:after {
             animation: none !important;
@@ -214,9 +153,10 @@ main{
         &:last-of-type {
             padding-bottom: 3em;
         }
-
+        
 		p, li {
             white-space: pre-line;
+            font-size:1.17em;
         }
 
         ul{
@@ -226,12 +166,25 @@ main{
 
             li{
                 padding-bottom:0.5em;
+                text-align:left;
             }
         }
 
         >div{
             max-width:800px;
             margin:0 auto;
+        }
+
+        &#duthchas{
+            background-color:#aba2d1;
+            p{
+                font-weight:bold;
+                font-style: italic;
+            }
+        }
+
+        &#register{
+            background-color: #2a184e;
         }
     }
 }
@@ -241,6 +194,13 @@ form input[type="email"]{
     max-width: 25em;
     padding: 0.8em 0 0.8em 1em;
     margin:0.5em 0;
+}
+
+h3 + p, h3 + ul{
+    margin-top:0;
+}
+h3{
+    margin-bottom:0.5em;
 }
 
 /* Button */
@@ -282,6 +242,15 @@ button,
     background-color: $footer_bg;
     padding: 1em 0;
     text-align: center;
+    color:$content_text;
+
+    a{
+        color: $content_text;
+    }
+
+    p{
+        opacity:0.4;
+    }
 
     .icons {
         font-size: 1.25em;
