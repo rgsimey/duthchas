@@ -149,10 +149,6 @@ main{
         background: $content_bg;
         padding: 1em 3em;
         color: $content_text;
-
-        &:last-of-type {
-            padding-bottom: 3em;
-        }
         
 		p, li {
             white-space: pre-line;
@@ -303,4 +299,8 @@ button,
             }
         }
     }
+}
+
+form{
+    margin-bottom: 1em;
 }

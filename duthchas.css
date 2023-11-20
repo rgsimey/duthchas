@@ -124,9 +124,6 @@ main > section {
   padding: 1em 3em;
   color: #dddddd;
 }
-main > section:last-of-type {
-  padding-bottom: 3em;
-}
 main > section p, main > section li {
   white-space: pre-line;
   font-size: 1.17em;
@@ -261,4 +258,8 @@ button:hover,
     margin: 0;
     padding: 0.5em 0;
   }
+}
+
+form {
+  margin-bottom: 1em;
 }/*# sourceMappingURL=duthchas.css.map */
