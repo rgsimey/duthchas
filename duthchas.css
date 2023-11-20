@@ -31,6 +31,7 @@ html {
   color: #ffffff;
   background-position: 60% 75%;
   background-size: cover;
+  padding: 0 0.6em;
 }
 #banner h1 {
   transform: scale(1);
@@ -55,7 +56,7 @@ html {
   transition: transform 0.5s ease, opacity 0.5s ease;
   transition-delay: 0.25s;
   color: #2a184e;
-  margin-top: 0;
+  margin-top: 0.25em;
   text-transform: uppercase;
 }
 #banner h2 a {
