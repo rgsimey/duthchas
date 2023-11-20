@@ -3,20 +3,24 @@ html {
   font-family: "Red Hat Display", sans-serif;
 }
 
-#logo {
-  border: 2px solid white;
-  border-radius: 100%;
-  width: 200px;
-  margin: 0 auto;
-  height: 200px;
-  top: -20px;
-  position: relative;
-  box-shadow: 0 0 3px #000000;
-  z-index: 1;
-  background-image: url("images/arran-outline.png");
-  background-size: 55%;
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+  background: white;
+  margin: 0;
+  text-align: center;
+}
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  animation: none !important;
+  transition: none !important;
+}
+body.is-preload #banner h1, body.is-preload #banner h2 {
+  transform: scale(0.95);
+  opacity: 0;
+}
+body.is-preload #banner h1:before, body.is-preload #banner h1:after, body.is-preload #banner h2:before, body.is-preload #banner h2:after {
+  width: 0;
+}
+body.is-preload #banner:after {
+  opacity: 1;
 }
 
 #banner {
@@ -33,12 +37,13 @@ html {
   background-size: cover;
   padding: 0 0.6em;
 }
-#banner h1 {
-  transform: scale(1);
+#banner h1, #banner h2 {
   transition: transform 0.5s ease, opacity 0.75s ease;
   transition-delay: 0.25s;
+}
+#banner h1 {
+  transform: scale(1);
   letter-spacing: 2px;
-  display: inline-block;
   font-size: 3em;
   opacity: 1;
   position: relative;
@@ -53,7 +58,6 @@ html {
   position: relative;
   z-index: 1;
   opacity: 1;
-  transition: transform 0.5s ease, opacity 0.5s ease;
   transition-delay: 0.25s;
   color: #2a184e;
   margin-top: 0.25em;
@@ -95,34 +99,10 @@ html {
   }
 }
 
-body {
-  background: white;
-  margin: 0;
-  text-align: center;
-}
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-  animation: none !important;
-  transition: none !important;
-}
-body.is-preload #banner h1, body.is-preload #banner h2 {
-  transform: scale(0.95);
-  opacity: 0;
-}
-body.is-preload #banner h1:before, body.is-preload #banner h1:after, body.is-preload #banner h2:before, body.is-preload #banner h2:after {
-  width: 0;
-}
-body.is-preload #banner .more {
-  transform: translateY(8.5em);
-  opacity: 0;
-}
-body.is-preload #banner:after {
-  opacity: 1;
-}
-
 main > section {
-  background: #5f50a1;
   padding: 1em 3em;
   color: #dddddd;
+  background-color: #5f50a1;
 }
 main > section p, main > section li {
   white-space: pre-line;
@@ -152,6 +132,10 @@ main > section#register {
   background-color: #2a184e;
 }
 
+form {
+  margin-bottom: 1em;
+}
+
 form input[type=email] {
   width: 100%;
   max-width: 25em;
@@ -160,24 +144,20 @@ form input[type=email] {
   box-sizing: border-box;
 }
 
-h3 + p, h3 + ul {
-  margin-top: 0;
-}
-
 h3 {
   margin-bottom: 0.5em;
 }
 
-/* Button */
-input[type=submit],
-input[type=reset],
-input[type=button],
-button,
-.button {
+h3 + p,
+h3 + ul {
+  margin-top: 0;
+}
+
+input[type=submit] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  transition: background-color _duration(transitions) ease-in-out, color _duration(transitions) ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   background-color: transparent;
   border-radius: 3px;
   border: 0;
@@ -197,11 +177,7 @@ button,
   overflow: hidden;
   text-overflow: ellipsis;
 }
-input[type=submit]:hover,
-input[type=reset]:hover,
-input[type=button]:hover,
-button:hover,
-.button:hover {
+input[type=submit]:hover {
   background-color: #dddddd;
   color: #5f50a1;
 }
@@ -218,48 +194,10 @@ button:hover,
 #footer p {
   opacity: 0.4;
 }
-#footer .icons {
-  font-size: 1.25em;
-}
-#footer .icons a {
-  color: _palette(fg-light);
-}
-#footer .icons a:hover {
-  color: _palette(fg);
-}
 #footer .copyright {
   color: #dddddd;
   font-size: 0.8em;
-  letter-spacing: _size(letter-spacing-alt);
   list-style: none;
   padding: 0;
   text-transform: uppercase;
-}
-#footer .copyright li {
-  border-left: solid 1px #dddddd;
-  display: inline-block;
-  line-height: 1em;
-  margin-left: 1em;
-  padding-left: 1em;
-}
-#footer .copyright li:first-child {
-  border-left: 0;
-  margin-left: 0;
-  padding-left: 0;
-}
-#footer .copyright li a {
-  color: inherit;
-}
-@media screen and (max-width: 480px) {
-  #footer .copyright li {
-    border: 0;
-    display: block;
-    line-height: 1.65em;
-    margin: 0;
-    padding: 0.5em 0;
-  }
-}
-
-form {
-  margin-bottom: 1em;
 }/*# sourceMappingURL=duthchas.css.map */
