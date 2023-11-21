@@ -5,15 +5,15 @@
         "imageUrl": "images/banner.jpg"
     },
     "introduction": {
-        "heading": "We are a community benefit society",
-        "content": "Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage."
+        "heading": "We are a community benefit society on the Isle of Arran",
+        "content": "Dùthchas Arainn is a CBS that exists to hold assets for the Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage. You can read more about the CBS model on the following link: <a href="https://www.uk.coop/resources/community-shares-handbook/2-society-legislation/21-bona-fide-co-operative-societies/211">The Community Shares Handbook - Co Operatives UK</a>.
     },
     "duthchas":{
-        "content": "\"Dùthchas\" is a Gaelic word that means a great many things, connection to land and people, the affinity to a place. Although Gaelic is much less prevalent on Arran in the 21st century, we believe that it is an important part of our island heritage, and that Dùthchas encompasses our connection to our island home."
+        "content": "\"Dùthchas\" is a Gaelic word that means a great many things, a connection to land and people, the affinity to a place. We believe that Gaelic is an important part of our island heritage, and that the word <em>Dùthchas</em> encompasses our connection to our island home."
     },
     "register":{
         "heading": "Register your interest in membership",
-        "content": "If you would like to get involved, leave your email with us and we will add you to our mailing list. We will notify you of any planned meetings and announcements."
+        "content": "If you would like to get involved, leave your email with us and we will add you to our mailing list. We will notify you as soon as it is possible to apply for membership."
     },
     "goals":{
         "heading": "We aim to (amongst other aims!)",
