@@ -133,6 +133,11 @@ main > section {
         white-space: pre-line;
         font-size: 1.17em;
     }
+ 
+    a{
+        color:$content_text;
+        text-decoration: underline;
+    }
 
     ul {
         @media screen and (max-width: 980px) {

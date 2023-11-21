@@ -108,6 +108,10 @@ main > section p, main > section li {
   white-space: pre-line;
   font-size: 1.17em;
 }
+main > section a {
+  color: #dddddd;
+  text-decoration: underline;
+}
 @media screen and (max-width: 980px) {
   main > section ul {
     padding-left: 0;
