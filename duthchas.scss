@@ -47,7 +47,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     cursor: default;
-    height: 85vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -80,7 +80,7 @@ body {
         z-index: 1;
         opacity: 1;
         transition-delay: 0.25s;
-        color: #2a184e;
+        color: #363CAC;
         margin-top: 0.25em;
         text-transform: uppercase;
 
@@ -104,30 +104,40 @@ body {
         opacity: 0;
     }
 
-    &:before {
-        content: '';
-        background: #000;
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        opacity: 0.1;
-    }
-
     @media screen and (max-width: 736px) {
         height: 500px;
         max-height: 85vh;
         min-height: 0;
     }
+
+    >div{
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        >a{
+            display: block;
+            margin-bottom: 2em;
+            margin-top: auto;
+            line-height: 1;
+            font-weight:600;
+            cursor: pointer;
+
+            @media screen and (max-width: 736px) {
+                display:none;            
+            }
+        }
+    }
 }
 
 // Main Content Styles
+#mainContent{
+    padding-bottom: 50vh;
+}
 main > section {
     padding: 1em 3em;
     color: $content_text;
     background-color: #5f50a1;
+    position:relative;
 
     p, li {
         white-space: pre-line;
@@ -151,20 +161,76 @@ main > section {
     }
 
     > div {
-        max-width: 800px;
+        max-width: 700px;
         margin: 0 auto;
+        position:relative;
+    }
+
+    &#introduction{
+        background-color: #888acd;
     }
 
     &#duthchas {
-        background-color: #aba2d1;
+        background-image: url("../images/goatfell-rowan.jpeg");
+        background-size: cover;
+        background-position: 50% 80%;
+        background-blend-mode: luminosity;
+
         p {
             font-weight: bold;
             font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+
+        &:after {
+            content: "";
+            background: #363dad;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0.75;
         }
     }
 
     &#register {
-        background-color: #2a184e;
+        background-color: #363dad;
+    }
+
+    &#goals{
+        &:before {
+            content: "";
+            background-image: url('images/banner.jpg');
+            background-position: top;
+            background-size: cover;
+            width: 100%;
+            height: calc(100% + 50vh);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index:0;
+        }
+        
+        &:after {
+            content: "";
+            background: #363dad;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0.75;
+            z-index:1;
+        }
+
+        p, >div{
+            position:relative;
+            z-index: 2;
+        }
     }
 }
 
@@ -213,6 +279,7 @@ input[type="submit"] {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-weight: bold;
 
     &:hover {
         background-color: $content_text;
@@ -226,6 +293,7 @@ input[type="submit"] {
     padding: 1em 0;
     text-align: center;
     color: $content_text;
+
 
     a {
         color: $content_text;
