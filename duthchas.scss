@@ -1,6 +1,5 @@
 // Variables
 $content_bg: #5f50a1;
-$footer_bg: #2a184e;
 $hero_text: #ffffff;
 $hero_text_shadow: #000000;
 $content_text: #dddddd;
@@ -104,12 +103,6 @@ body {
         opacity: 0;
     }
 
-    @media screen and (max-width: 736px) {
-        height: 500px;
-        max-height: 85vh;
-        min-height: 0;
-    }
-
     >div{
         height:100%;
         display:flex;
@@ -121,10 +114,6 @@ body {
             line-height: 1;
             font-weight:600;
             cursor: pointer;
-
-            @media screen and (max-width: 736px) {
-                display:none;            
-            }
         }
     }
 }
@@ -260,8 +249,8 @@ h3 + ul {
 // Button Styles
 input[type="submit"] {
     appearance: none;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    background-color: transparent;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #363dad;
     border-radius: 3px;
     border: 0;
     box-shadow: inset 0 0 0 2px $content_text;
@@ -282,32 +271,22 @@ input[type="submit"] {
     font-weight: bold;
 
     &:hover {
-        background-color: $content_text;
-        color: $content_bg;
+        background-color: #878ACD;
+        // color: #363dad;
+        box-shadow: inset 0 0 0 2px #878ACD;
+
     }
 }
 
 // Footer Styles
 #footer {
-    background-color: $footer_bg;
+    background-color: #363dad;
     padding: 1em 0;
     text-align: center;
     color: $content_text;
 
 
-    a {
-        color: $content_text;
-    }
-
-    p {
-        opacity: 0.4;
-    }
-
-    .copyright {
-        color: $content_text;
-        font-size: 0.8em;
-        list-style: none;
-        padding: 0;
-        text-transform: uppercase;
+    a, p {
+        color: #878ACD;
     }
 }
