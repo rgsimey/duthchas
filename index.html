@@ -131,6 +131,11 @@
                 const compiledHtml = template(data);
                 document.getElementById('mainContent').innerHTML = compiledHtml; // Insert into the DOM
 
+                document.addEventListener('scroll', function() {
+                    const scrollPosition = window.pageYOffset;
+                    const banner = document.getElementById('duthchas');
+                    banner.style.backgroundPositionY = -((scrollPosition * 0.8) + 200) + 'px';
+                });
                 $('#registration-form').ajaxSubmit({
                     after: function (res) {
                         // console.log("Posted");

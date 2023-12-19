@@ -51,9 +51,11 @@ body {
     position: relative;
     text-align: center;
     color: $hero_text;
-    background-position: 60% 75%;
-    background-size: cover;
-    padding: 0 0.6em;
+    background-position-x: 60%;
+    padding: 0 1em;
+    // background-position: center; /* Optional: Adjust as needed */
+    // background-size: cover; /* Ensure full cover of the area */
+    @extend .parallax-background;
 
     h1, h2 {
         transition: transform 0.5s ease, opacity 0.75s ease;
@@ -69,6 +71,7 @@ body {
         z-index: 1;
         line-height: 1;
         margin-bottom: 0;
+        margin-top:5vh;
     }
 
     h2 {
@@ -80,7 +83,7 @@ body {
         opacity: 1;
         transition-delay: 0.25s;
         color: #363CAC;
-        margin-top: 0.25em;
+        margin-top: 0.5em;
         text-transform: uppercase;
 
         a {
@@ -127,6 +130,9 @@ main > section {
     color: $content_text;
     background-color: #5f50a1;
     position:relative;
+    min-height:45vh;
+    display:flex;
+    align-items: center;
 
     p, li {
         white-space: pre-line;
@@ -161,9 +167,12 @@ main > section {
 
     &#duthchas {
         background-image: url('images/goatfell-rowan.jpeg');
-        background-size: cover;
-        background-position: 50% 80%;
+        // background-size: cover;
+        background-position-x: center;
+        background-position-y: 200px;
         background-blend-mode: luminosity;
+        @extend .parallax-background;
+        
 
         p {
             font-weight: bold;
@@ -194,7 +203,8 @@ main > section {
             content: "";
             background-image: url('images/banner.jpg');
             background-position: top;
-            background-size: cover;
+            // background-size: cover;
+            @extend .parallax-background;
             width: 100%;
             height: calc(100% + 50vh);
             position: absolute;
@@ -289,4 +299,9 @@ input[type="submit"] {
     a, p {
         color: #878ACD;
     }
+}
+
+.parallax-background{
+    background-attachment: fixed; /* Add this line for parallax */
+    background-size: cover;
 }
