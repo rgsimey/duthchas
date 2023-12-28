@@ -17,12 +17,13 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <meta property="og:title" content="Dùthchas Arainn - Community Benefit Society" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage." />
+    <meta property="og:description"
+        content="Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage." />
     <!-- <meta property="og:image" content="https://pioneerproject.scot/img/logo-orange.png" />
     <meta property="og:image:secure_url" content="https://pioneerproject.scot/images/logo-orange.png" />
     <meta property="og:url" content="https://pioneerproject.scot" /> -->
     <meta property="og:site_name" content="Dùthchas Arainn - Community Benefit Society" />
-
+    
 </head>
 
 <body class="landing is-preload">
@@ -51,11 +52,17 @@
         <main id="mainContent">
             <script id="mainContentTemplate" type="text/x-handlebars-template">
                 <!-- Banner -->
-            <header id="banner" style="background-image:url('{{hero.imageUrl}}');">
+            <header id="banner">
+                <div style="background-image:url('{{hero.imageUrl}}'); position: fixed;
+                width: 100%;
+                background-image: url(images/banner.jpg);
+                background-position-x: 70%;
+                z-index:0;"></div>
                 <div>
                     <h1>{{hero.heading}}</h1>
                     <h2>{{hero.subheading}}</h2>
-                    <a onclick="document.getElementById('introduction').scrollIntoView({behavior:'smooth'});">Learn More<br>⌄</a>
+                    <a onclick="document.getElementById('introduction').scrollIntoView({behavior:'smooth'});">Learn
+                        More<br>⌄</a>
                 </div>
                 <!-- <a href="#introduction" class="more scrolly">Learn More</a> -->
             </header>
@@ -69,7 +76,10 @@
             </section>
 
             <!-- Dùthchas -->
-            <section id="duthchas">
+            <section id="duthchas" style="overflow:hidden;">
+                <img src="images/goatfell-rowan.jpeg" style="position: absolute;
+                z-index: 0;
+                left: -1em;" />
                 <div>
                     <p>{{{duthchas.content}}}</p>
                 </div>
@@ -92,6 +102,11 @@
 
             <!-- Goals -->
             <section id="goals">
+                <div style="background-image:url('{{hero.imageUrl}}'); position: fixed;
+                width: 100%;
+                background-image: url(images/banner.jpg);
+                background-position-x: 70%;"></div>
+                <div>
                 <div>
                     <h3>{{goals.heading}}</h3>
                     <ul>
@@ -107,9 +122,10 @@
 
         <!-- Footer -->
         <footer id="footer">
-                <h3>&copy; Dùthchas Arainn 2023</h3>
-                <p>Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> & <a href="mailto:chris@kelvindigital.co.uk" target="_blank">Kelvin Digital</a></p>
-                <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
+            <h3>&copy; Dùthchas Arainn 2023</h3>
+            <p>Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> & <a
+                    href="mailto:chris@kelvindigital.co.uk" target="_blank">Kelvin Digital</a></p>
+            <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
         </footer>
     </div>
 
@@ -122,6 +138,7 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jQuery.ajaxSubmit.min.js"></script>
+    
     <script defer>
         fetch('home.json')
             .then(response => response.json())
@@ -131,11 +148,19 @@
                 const compiledHtml = template(data);
                 document.getElementById('mainContent').innerHTML = compiledHtml; // Insert into the DOM
 
-                document.addEventListener('scroll', function() {
+                // $('#banner').iosParallax({
+                //     // How fast the background moves
+                //     movementFactor: 50,
+                //     // How much to dampen the movement (higher is slower)
+                //     dampenFactor: 36
+                // });
+
+                document.addEventListener('scroll', function () {
                     const scrollPosition = window.pageYOffset;
                     const banner = document.getElementById('duthchas');
                     banner.style.backgroundPositionY = -((scrollPosition * 0.8) + 200) + 'px';
                 });
+
                 $('#registration-form').ajaxSubmit({
                     after: function (res) {
                         // console.log("Posted");
@@ -148,6 +173,7 @@
                 console.error('Error loading data:', error);
                 document.getElementById('mainContent').innerHTML = '<p>Error loading data.</p>'; // Provide user feedback
             });
+
     </script>
 
 

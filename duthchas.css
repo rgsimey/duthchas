@@ -132,12 +132,6 @@ main > section > div {
 main > section#introduction {
   background-color: #888acd;
 }
-main > section#duthchas {
-  background-image: url("images/goatfell-rowan.jpeg");
-  background-position-x: center;
-  background-position-y: 200px;
-  background-blend-mode: luminosity;
-}
 main > section#duthchas p {
   font-weight: bold;
   font-style: italic;
@@ -160,8 +154,6 @@ main > section#register {
 }
 main > section#goals:before {
   content: "";
-  background-image: url("images/banner.jpg");
-  background-position: top;
   width: 100%;
   height: calc(100% + 50vh);
   position: absolute;
@@ -242,12 +234,9 @@ input[type=submit]:hover {
   padding: 1em 0;
   text-align: center;
   color: #dddddd;
+  position: relative;
+  z-index: 10;
 }
 #footer a, #footer p {
   color: #878ACD;
-}
-
-.parallax-background, #banner, main > section#duthchas, main > section#goals:before {
-  background-attachment: fixed; /* Add this line for parallax */
-  background-size: cover;
 }/*# sourceMappingURL=duthchas.css.map */

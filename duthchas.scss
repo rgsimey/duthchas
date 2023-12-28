@@ -55,7 +55,7 @@ body {
     padding: 0 1em;
     // background-position: center; /* Optional: Adjust as needed */
     // background-size: cover; /* Ensure full cover of the area */
-    @extend .parallax-background;
+    // @extend .parallax-background;
 
     h1, h2 {
         transition: transform 0.5s ease, opacity 0.75s ease;
@@ -166,12 +166,12 @@ main > section {
     }
 
     &#duthchas {
-        background-image: url('images/goatfell-rowan.jpeg');
-        // background-size: cover;
-        background-position-x: center;
-        background-position-y: 200px;
-        background-blend-mode: luminosity;
-        @extend .parallax-background;
+        // background-image: url('images/goatfell-rowan.jpeg');
+        // // background-size: cover;
+        // background-position-x: center;
+        // background-position-y: 200px;
+        // background-blend-mode: luminosity;
+        // @extend .parallax-background;
         
 
         p {
@@ -201,10 +201,10 @@ main > section {
     &#goals{
         &:before {
             content: "";
-            background-image: url('images/banner.jpg');
-            background-position: top;
-            // background-size: cover;
-            @extend .parallax-background;
+            // background-image: url('images/banner.jpg');
+            // background-position: top;
+            // // background-size: cover;
+            // @extend .parallax-background;
             width: 100%;
             height: calc(100% + 50vh);
             position: absolute;
@@ -294,14 +294,16 @@ input[type="submit"] {
     padding: 1em 0;
     text-align: center;
     color: $content_text;
-
+    position: relative;
+    z-index:10;
 
     a, p {
         color: #878ACD;
     }
 }
 
-.parallax-background{
-    background-attachment: fixed; /* Add this line for parallax */
-    background-size: cover;
-}
+// .parallax-background{
+//     background-attachment: fixed; /* Add this line for parallax */
+//     background-size: cover;
+// }
+
