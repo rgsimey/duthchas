@@ -75,17 +75,24 @@
                 </div>
             </section>
 
-            <!-- Dùthchas -->
-            <section id="duthchas" style="overflow:hidden;">
-                <img src="images/goatfell-rowan.jpeg" style="position: absolute;
-                z-index: 0;
-                left: -1em;" />
+	    <!-- Goals -->
+            <section id="goals">
+                <div style="background-image:url('{{hero.imageUrl}}'); position: fixed;
+                width: 100%;
+                background-image: url(images/banner.jpg);
+                background-position-x: 70%;"></div>
                 <div>
-                    <p>{{{duthchas.content}}}</p>
+                <div>
+                    <h3>{{goals.heading}}</h3>
+                    <ul>
+                        {{#each goals.content}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
                 </div>
             </section>
 
-            <!-- Register -->
+	    <!-- Register -->
             <section id="register">
                 <div>
                     <h3>{{register.heading}}</h3>
@@ -102,22 +109,15 @@
                 </div>
             </section>
 
-            <!-- Goals -->
-            <section id="goals">
-                <div style="background-image:url('{{hero.imageUrl}}'); position: fixed;
-                width: 100%;
-                background-image: url(images/banner.jpg);
-                background-position-x: 70%;"></div>
+            <!-- Dùthchas -->
+            <section id="duthchas" style="overflow:hidden;">
+                <img src="images/goatfell-rowan.jpeg" style="position: absolute;
+                z-index: 0;
+                left: -1em;" />
                 <div>
-                <div>
-                    <h3>{{goals.heading}}</h3>
-                    <ul>
-                        {{#each goals.content}}
-                        <li>{{this}}</li>
-                        {{/each}}
-                    </ul>
+                    <p>{{{duthchas.content}}}</p>
                 </div>
-            </section>
+	    </section>
 
             </script>
         </main>
