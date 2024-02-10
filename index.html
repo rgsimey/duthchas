@@ -71,7 +71,9 @@
             <section id="introduction">
                 <div>
                     <h3>{{introduction.heading}}</h3>
-                    <p>{{{introduction.content}}}</p>
+                    {{#each introduction.content}}
+                        <p>{{this}}</p>
+                        {{/each}}
                 </div>
             </section>
 
@@ -124,7 +126,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <h3>&copy; Dùthchas Arainn 2023</h3>
+            <h3>&copy; Dùthchas Arainn 2024</h3>
             <p>Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> & <a
                     href="mailto:chris@kelvindigital.co.uk" target="_blank">Kelvin Digital</a></p>
             <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
