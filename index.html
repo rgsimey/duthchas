@@ -89,9 +89,9 @@
             <section id="register">
                 <div>
                     <h3>{{register.heading}}</h3>
-                    <p>{{register.content-a}}</p>
-		    <p>{{register.content-b}}</p>
-		    <p>{{register.content-c}}</p>
+                    {{#each register.content}}
+                        <p>{{this}}</p>
+                        {{/each}}
                     <form id="registration-form" action="https://api.sheetmonkey.io/form/i9iiBMDbqxYcsf2dYCwyNu"
                         method="post">
                         <!-- <label>Your Name: <input type="text" name="Name" required /></label> -->
