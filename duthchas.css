@@ -234,6 +234,8 @@ input[type=submit]:hover {
     padding: 1em 0;
     text-align: center;
     color: #dddddd;
+    position: relative;
+    z-index: 10;
 }
 #footer a, #footer p {
   color: #878ACD;
