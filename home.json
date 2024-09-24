@@ -20,7 +20,7 @@
         "content": [
             "We are building a wide and diverse membership in support of our collective goals. As a member, you can help to shape the future of our CBS, determine our priorities and contribute to our vision. The scope of the CBS is as diverse as our membership.",
             "As a member, you will also be able to join our board. We are looking for passionate individuals with a unique perspective and skills who will be vital in steering our society towards inclusive and impactful results for Arran’s community.",
-            "You can apply for membership by completing and returning the following Membership Registration Form: <ul><li><a href='https://forms.gle/4RuiMHTdDzUDUtG86'>Complete on Google Forms</a> </li><li><a href='https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf'>Download PDF Version</a></li><li> <a href='https://duthchas.scot/documents/DuthchasArainnCBS-PrivacyPolicy.pdf'>Privacy Policy</a>.</li></ul>",
+            "You can apply for membership by completing and returning the following Membership Registration Form: <ul><li class="button"><a href='https://forms.gle/4RuiMHTdDzUDUtG86'>Complete on Google Forms</a> </li><li class="button"><a href='https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf'>Download PDF Version</a></li><li class="button"> <a href='https://duthchas.scot/documents/DuthchasArainnCBS-PrivacyPolicy.pdf'>Privacy Policy</a>.</li></ul>",
             "You can also leave your email with us and we will add you to our mailing list."
         ]
     },
