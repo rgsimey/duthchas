@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: white;
+  background: #ffffff;
   margin: 0;
 }
 body.is-preload * {
@@ -53,26 +53,21 @@ body.is-preload * {
   opacity: 1;
   transition-delay: 0.25s;
   color: #363cac;
-  margin: 0.5em 0;
+  margin: 0.2em 0 0.5em 0;
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
   #banner h2 {
-    color: white;
+    color: #ffffff;
   }
 }
 #banner h2 a {
   color: inherit;
 }
 #banner h3 {
-  color: #363cac;
+  color: #ffffff;
   z-index: 1;
   margin-top: 0;
-}
-@media screen and (max-width: 768px) {
-  #banner h3 {
-    color: white;
-  }
 }
 #banner:after {
   pointer-events: none;
@@ -125,10 +120,10 @@ main > section:nth-child(2n+1) {
   background-color: #363dad;
 }
 main > section:nth-child(2n+1) .cta-button:hover {
-  background-color: #888acd;
+  background-color: #575ab8;
 }
 main > section:nth-child(2n+2) {
-  background-color: #888acd;
+  background-color: #575ab8;
 }
 main > section:nth-child(2n+2) .cta-button:hover {
   background-color: #363dad;
@@ -269,11 +264,11 @@ input[type=submit]:hover {
 
 .cta-button {
   background-color: transparent;
-  color: white;
+  color: #ffffff;
   padding: 0.5em 1em;
   border-radius: 5px;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
   font-weight: bold;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -284,7 +279,7 @@ input[type=submit]:hover {
 }
 
 .cta-button:hover {
-  color: white;
+  color: #ffffff;
 }
 
 #introduction {
@@ -299,7 +294,12 @@ input[type=submit]:hover {
   padding: 0.25rem 0.75rem;
   font-size: 1.17em;
 }
-.sessions-table tr:nth-child(even),
+.sessions-table tr:nth-child(2n+1) {
+  background-color: #363dad;
+}
+.sessions-table tr:nth-child(2n+2) {
+  background-color: #575ab8;
+}
 .sessions-table thead tr {
-  background-color: rgba(54, 61, 173, 0.2);
+  background-color: transparent !important;
 }/*# sourceMappingURL=duthchas.css.map */
