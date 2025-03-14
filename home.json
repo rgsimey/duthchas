@@ -1,39 +1,139 @@
 {
-    "hero": {
-        "heading": "Dùthchas Arainn",
-        "subheading": "Community Benefit Society",
-        "imageUrl": "images/banner.jpg"
+  "hero": {
+    "heading": "Dùthchas Arainn",
+    "subheading": "COMMUNITY BENEFIT SOCIETY",
+    "content": "A community-owned approach to sustainable land management on Arran"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": "Dùthchas Arainn is a Community Benefit Society established to hold land and assets in community ownership for the benefit of Arran's people. We're working to create a sustainable future for our island through woodland crofting, natural conservation, and cultural heritage preservation.",
+      "content": [],
+      "cta": []
     },
-    "introduction": {
-        "heading": "We are a community benefit society on the Isle of Arran",
-        "content": [
-            "Dùthchas Arainn is a CBS that exists to hold assets for the people of Arran - land, buildings and infrastructure - with the aim of natural conservation and protection of our island heritage, as well as the sustainability and future resilience of our community.",
-            "We wish to involve the active participation and engagement of the community, and members may include individuals, businesses, or other organisations, allowing islanders to collectively own and manage assets for our own mutual benefit."
-        ],
-        "links": [
-            "You can read more about the CBS model on the following link: <a href='https://www.uk.coop/resources/community-shares-handbook/2-society-legislation/21-bona-fide-co-operative-societies/211'>The Community Shares Handbook - Co Operatives UK</a>",
-            "You can read the minutes from our first AGM, held October 18th 2024, on the following link: <a href='https://duthchas.scot/documents/DuthchasArainnCBS-AGM1-minutes.pdf' rel='nofollow'>Minutes of Inaugural AGM</a> (PDF)"
-        ]
+    {
+      "id": "register",
+      "heading": "Become a Member - Before May 1st!",
+      "content": [
+        "We're building a diverse community of members who share our vision for Arran. As a member, you'll help shape our priorities and contribute to our collective goals. Don't miss the May 1st deadline to become a founding member!",
+        "Membership is open to:",
+        "<li>Community Members (KA27 residents)</li>",
+        "<li>Supporter Members (anyone outside KA27)</li>",
+        "Join us by completing our membership form and purchasing shares:"
+      ],
+      "cta": [
+        {
+          "text": "COMPLETE ONLINE",
+          "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
+          "target": "_blank"
+        },
+        {
+          "text": "DOWNLOAD PDF",
+          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf",
+          "target": "_blank"
+        }
+      ]
     },
-    "duthchas": {
-        "content": "\"Dùthchas\" is a Gaelic word that means a great many things, a connection to land and people, the affinity to a place. We believe that Gaelic is an important part of our island heritage, and that the word <em>Dùthchas</em> encompasses our connection to our island home. You can read more about dùthchas in the following article <a href='https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>."
+    {
+      "id": "sessions",
+      "heading": "Community Information Sessions",
+      "content": [
+        "We're hosting sessions across Arran in March and April 2025. Come learn about our work and discuss these exciting opportunities:"
+      ],
+      "sessions": [
+        {
+          "date": "Mon March 24th",
+          "time": "2-4pm",
+          "location": "Kilmory Hall"
+        },
+        {
+          "date": "Wed March 26th",
+          "time": "1-3pm",
+          "location": "Corrie & Sannox Hall*"
+        },
+        {
+          "date": "Mon March 31st",
+          "time": "2-4pm",
+          "location": "Pirnmill Hall"
+        },
+        {
+          "date": "Wed April 2nd",
+          "time": "4-5:45pm",
+          "location": "Shiskine Hall"
+        },
+        {
+          "date": "Mon April 7th",
+          "time": "2-4pm",
+          "location": "Whiting Bay**"
+        },
+        {
+          "date": "Tue April 8th",
+          "time": "4-6pm",
+          "location": "Lochranza & Catacol Hall"
+        },
+        {
+          "date": "Tue April 15th",
+          "time": "2-4pm",
+          "location": "Kildonan**"
+        },
+        {
+          "date": "Tue April 22nd",
+          "time": "6-8pm",
+          "location": "Brodick**"
+        },
+        {
+          "date": "Thu April 24th",
+          "time": "6-8pm",
+          "location": "Lamlash**"
+        },
+        {
+          "date": "Mon April 28th",
+          "time": "7pm",
+          "location": "Online Session"
+        }
+      ],
+      "session_notes": "*We will also be at the Zero Waste Cafe beforehand\n**Dates/times are provisional, check out website for updates and venue details"
     },
-    "register": {
-        "heading": "Become a Member",
-        "content": [
-            "We are building a wide and diverse membership in support of our collective goals. As a member, you can help to shape the future of our CBS, determine our priorities and contribute to our vision. The scope of the CBS is as diverse as our membership.",
-            "As a member, you will also be able to join our board. We are looking for passionate individuals with a unique perspective and skills who will be vital in steering our society towards inclusive and impactful results for Arran’s community.",
-            "You can apply for membership by completing and returning the following Membership Registration Form: <ul><li class='button'><a href='https://forms.gle/4RuiMHTdDzUDUtG86'>Complete on Google Forms</a></li><li class='button'><a href='https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf'>Download PDF Version</a></li><li class='button'><a href='https://duthchas.scot/documents/DuthchasArainnCBS-PrivacyPolicy.pdf'>Privacy Policy</a></li></ul>",
-            "You can also leave your email with us and we will add you to our mailing list."
-        ]
+    {
+      "id": "opportunity",
+      "heading": "Exciting New Opportunity: Former Bank of Scotland Building in Brodick",
+      "content": [
+        "We're moving forward with plans to acquire the former Bank of Scotland branch in Brodick (available for £110,000) as a community-owned environmental hub. This central location would provide:",
+        "<li>An environmental and sustainability hub with resources for the whole Arran community</li>",
+        "<li>Flexible co-working space and meeting rooms for local organisations and remote workers</li>",
+        "<li>A vibrant community venue in the former banking hall for events, workshops and gatherings</li>",
+        "<li>A visible presence for environmental initiatives in the heart of Brodick</li>",
+        "We're developing investment options at various levels (potentially from £500 to £5,000) with corresponding benefits for community supporters. Investment shares would be withdrawable if the project doesn't proceed. Full prospectus coming soon!"
+      ]
     },
-    "goals": {
-        "heading": "We aim to (amongst other aims!)",
-        "content": [
-            "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
-            "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
-            "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
-            "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design, and inspired by the HiFar initiative."
-        ]
+    {
+      "id": "focus",
+      "heading": "Our Current Focus: Glen Cloy",
+      "content": [
+        "We're also working toward a community asset transfer of woodland in Glen Cloy from Forestry and Land Scotland. This pilot project will allow us to:",
+        "<li>Develop a prototype for sustainable woodland management</li>",
+        "<li>Create woodland crofting opportunities with affordable housing</li>",
+        "<li>Restore native woodland and enhance biodiversity</li>",
+        "<li>Protect archaeological features and cultural heritage</li>",
+        "<li>Improve water management to reduce flood risk</li>"
+      ]
+    },
+    {
+      "id": "aims",
+      "heading": "We aim to (amongst other aims!)",
+      "content": [
+        "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
+        "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
+        "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
+        "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design, and inspired by the HiFar initiative."
+      ]
+    },
+    {
+      "id": "duthchas-section",
+      "heading": null,
+      "content": [
+        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
+      ]
     }
+  ]
 }
