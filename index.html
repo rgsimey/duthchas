@@ -1,39 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-
-<head>
+  <head>
     <title>Dùthchas Arainn CBS</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <!-- <link rel="stylesheet" href="styles.css" /> -->
     <link rel="stylesheet" href="duthchas.css" />
     <!-- <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
     <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <meta property="og:title" content="Dùthchas Arainn - Community Benefit Society" />
+    <meta
+      property="og:title"
+      content="Dùthchas Arainn - Community Benefit Society"
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:description"
-        content="Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage." />
+    <meta
+      property="og:description"
+      content="Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage."
+    />
     <!-- <meta property="og:image" content="https://pioneerproject.scot/img/logo-orange.png" />
     <meta property="og:image:secure_url" content="https://pioneerproject.scot/images/logo-orange.png" />
     <meta property="og:url" content="https://pioneerproject.scot" /> -->
-    <meta property="og:site_name" content="Dùthchas Arainn - Community Benefit Society" />
-    
-</head>
+    <meta
+      property="og:site_name"
+      content="Dùthchas Arainn - Community Benefit Society"
+    />
+  </head>
 
-<body class="landing is-preload">
-
+  <body class="landing is-preload">
     <!-- Page Wrapper -->
     <div id="page-wrapper">
-
-        <!-- Header -->
-        <!-- <header id="header">
-            <h1><a href="index.html">Dùthchas Arainn</a></h1>
+      <!-- Header -->
+      <!-- <header id="header">
+            <h1><a href="index.html">Dùthchas Arainn</a></h1>
             <nav id="nav">
                 <ul>
                     <li class="special">
@@ -49,89 +56,96 @@
                 </ul>
             </nav>
         </header> -->
-        <main id="mainContent">
-            <script id="mainContentTemplate" type="text/x-handlebars-template">
-                <!-- Banner -->
-            <header id="banner">
-                <div style="background-image:url('{{hero.imageUrl}}'); position: fixed;
+      <main id="mainContent">
+        <script id="mainContentTemplate" type="text/x-handlebars-template">
+          <!-- Banner -->
+          <header id="banner">
+            <div
+              style="
+                background-image: url('{{hero.imageUrl}}');
+                position: fixed;
                 width: 100%;
                 background-image: url(images/banner.jpg);
-                background-position-x: 70%;
-                z-index:0;"></div>
-                <div>
-                    <h1>{{hero.heading}}</h1>
-                    <h2>{{hero.subheading}}</h2>
-                    <a onclick="document.getElementById('introduction').scrollIntoView({behavior:'smooth'});">Learn
-                        More<br>⌄</a>
-                </div>
-                <!-- <a href="#introduction" class="more scrolly">Learn More</a> -->
-            </header>
-
-            <!-- Introduction -->
-            <section id="introduction">
-                <div>
-                    <h3>{{introduction.heading}}</h3>
-                    {{#each introduction.content}}
-                        <p>{{this}}</p>
-                        {{/each}}
-		    <p>{{{introduction.links}}}</p>
-                </div>
-            </section>
-
-	    <!-- Goals -->
-            <section id="goals">
-                <div style="background-image:url('{{hero.imageUrl}}'); position: fixed;
-                width: 100%;
-                background-image: url(images/banner.jpg);
-                background-position-x: 70%;"></div>
-                <div>
-                <div>
-                    <h3>{{goals.heading}}</h3>
-                    <ul>
-                        {{#each goals.content}}
-                        <li>{{this}}</li>
-                        {{/each}}
-                    </ul>
-                </div>
-            </section>
-
-	    <!-- Dùthchas -->
-            <section id="duthchas" style="overflow:hidden;">
-                <img src="images/goatfell-rowan.jpeg" style="position: absolute;
+                background-position: 60% 65%;
                 z-index: 0;
-                left: -1em;" />
-                <div>
-                    <p>{{{duthchas.content}}}</p>
-                </div>
-	    </section>
+              "
+            ></div>
+            <div id="bannerContent">
+              <h1>{{hero.heading}}</h1>
+              <h2>{{hero.subheading}}</h2>
+              <h3>{{hero.content}}</h3>
+              {{#if hero.cta}}
+                <a
+                  href="{{hero.cta.url}}"
+                  class="button big cta-button"
+                >{{hero.cta.text}}</a>
+              {{/if}}
+              <!-- <a onclick="document.getElementById('introduction').scrollIntoView({behavior:'smooth'});">Learn
+                                More<br>⌄</a> -->
+            </div>
+            <!-- <a href="#introduction" class="more scrolly">Learn More</a> -->
+          </header>
 
-	    <!-- Register -->
-            <section id="register">
-                <div>
-                    <h3>{{register.heading}}</h3>
-                    {{#each register.content}}
-                        <p>{{{this}}}</p>
-                        {{/each}}
-                    <form id="registration-form" action="https://api.sheetmonkey.io/form/i9iiBMDbqxYcsf2dYCwyNu"
-                        method="post">
-                        <!-- <label>Your Name: <input type="text" name="Name" required /></label> -->
-                        <input placeholder="Your Email Address" type="email" name="Email" required />
-                        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-                        <input type="submit" value="Register your interest" />
-                    </form>
-                </div>
+          {{#each sections}}
+            <section id="{{this.id}}">
+              <div>
+                <h3>{{this.heading}}</h3>
+                {{#each this.content}}
+                  <p>{{{this}}}</p>
+                {{/each}}
+
+                {{#if this.sessions}}
+                  <table class="sessions-table" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Location</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {{#each this.sessions}}
+                        <tr>
+                          <td>{{this.date}}</td>
+                          <td>{{this.time}}</td>
+                          <td><strong>{{this.location}}</strong></td>
+                        </tr>
+                      {{/each}}
+                    </tbody>
+                  </table>
+                  {{#if this.session_notes}}
+                    <p class="session-notes">{{{this.session_notes}}}</p>
+                  {{/if}}
+                {{/if}}
+
+                {{#if this.cta}}
+                  <div class="cta-container">
+                    {{#each this.cta}}
+                      <a
+                        href="{{this.url}}"
+                        class="button cta-button"
+                        target="{{this.target}}"
+                      >{{this.text}}</a>
+                    {{/each}}
+                  </div>
+                {{/if}}
+              </div>
             </section>
-		    
-            </script>
-        </main>
+          {{/each}}
+        </script>
+      </main>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <h3>&copy; Dùthchas Arainn 2024</h3>
-            <p>Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> & <a
-                    href="mailto:chris@kelvindigital.co.uk" target="_blank">Kelvin Digital</a></p>
-            <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
-        </footer>
+      <!-- Footer -->
+      <footer id="footer">
+        <h3>&copy; Dùthchas Arainn 2024</h3>
+        <p>
+          Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> &
+          <a href="mailto:chris@kelvindigital.co.uk" target="_blank"
+            >Kelvin Digital</a
+          >
+        </p>
+        <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
+      </footer>
     </div>
 
     <!-- Scripts -->
@@ -143,45 +157,47 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jQuery.ajaxSubmit.min.js"></script>
-    
+
     <script defer>
-        fetch('home.json')
-            .then(response => response.json())
-            .then(data => {
-                const templateSource = document.getElementById('mainContentTemplate').innerHTML;
-                const template = Handlebars.compile(templateSource);
-                const compiledHtml = template(data);
-                document.getElementById('mainContent').innerHTML = compiledHtml; // Insert into the DOM
+      fetch("home.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const templateSource = document.getElementById(
+            "mainContentTemplate"
+          ).innerHTML;
+          const template = Handlebars.compile(templateSource);
+          const compiledHtml = template(data);
+          document.getElementById("mainContent").innerHTML = compiledHtml; // Insert into the DOM
 
-                // $('#banner').iosParallax({
-                //     // How fast the background moves
-                //     movementFactor: 50,
-                //     // How much to dampen the movement (higher is slower)
-                //     dampenFactor: 36
-                // });
+          // $('#banner').iosParallax({
+          //     // How fast the background moves
+          //     movementFactor: 50,
+          //     // How much to dampen the movement (higher is slower)
+          //     dampenFactor: 36
+          // });
 
-                document.addEventListener('scroll', function () {
-                    const scrollPosition = window.pageYOffset;
-                    const banner = document.getElementById('duthchas');
-                    banner.style.backgroundPositionY = -((scrollPosition * 0.8) + 200) + 'px';
-                });
+          document.addEventListener("scroll", function () {
+            const scrollPosition = window.pageYOffset;
+            const banner = document.getElementById("duthchas");
+            banner.style.backgroundPositionY =
+              -(scrollPosition * 0.8 + 200) + "px";
+          });
 
-                $('#registration-form').ajaxSubmit({
-                    after: function (res) {
-                        // console.log("Posted");
-                        $("#registration-form").after("<p>Thank you for registering your interest. You have been added to our mailing list.</p>");
-                        $("#registration-form").remove();
-                    }
-                });
-            })
-            .catch(error => {
-                console.error('Error loading data:', error);
-                document.getElementById('mainContent').innerHTML = '<p>Error loading data.</p>'; // Provide user feedback
-            });
-
+          $("#registration-form").ajaxSubmit({
+            after: function (res) {
+              // console.log("Posted");
+              $("#registration-form").after(
+                "<p>Thank you for registering your interest. You have been added to our mailing list.</p>"
+              );
+              $("#registration-form").remove();
+            },
+          });
+        })
+        .catch((error) => {
+          console.error("Error loading data:", error);
+          document.getElementById("mainContent").innerHTML =
+            "<p>Error loading data.</p>"; // Provide user feedback
+        });
     </script>
-
-
-</body>
-
+  </body>
 </html>
