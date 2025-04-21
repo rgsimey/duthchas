@@ -35,10 +35,32 @@
       ]
     },
     {
+      "id": "aims",
+      "heading": "We aim to (amongst other aims!)",
+      "content": [
+        "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
+        "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
+        "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
+        "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design, and inspired by the HiFar initiative."
+      ]
+    },
+    {
+      "id": "focus",
+      "heading": "Current Project: Glen Cloy",
+      "content": [
+        "We're working toward a community asset transfer of woodland in Glen Cloy from Forestry and Land Scotland. This pilot project will allow us to:",
+        "<li>Develop a prototype for sustainable woodland management</li>",
+        "<li>Create woodland crofting opportunities with affordable housing</li>",
+        "<li>Restore native woodland and enhance biodiversity</li>",
+        "<li>Protect archaeological features and cultural heritage</li>",
+        "<li>Improve water management to reduce flood risk</li>"
+      ]
+    },
+    {
       "id": "sessions",
       "heading": "Community Information Sessions",
       "content": [
-        "We're hosting sessions across Arran in March and April 2025. Come learn about our work and discuss these exciting opportunities:"
+        "We hosted various sessions across Arran in March and April 2025. We decided to postpone the meetings in Brodick and Lamlash until later in the year."
       ],
       "sessions": [
         {
@@ -91,36 +113,14 @@
     },
     {
       "id": "opportunity",
-      "heading": "Exciting New Opportunity: Former Bank of Scotland Building in Brodick",
+      "heading": "Our attempt to buy the Former Bank of Scotland Building in Brodick",
       "content": [
-        "We're moving forward with plans to acquire the former Bank of Scotland branch in Brodick as a community-owned environmental hub. This central location would provide:",
+        "In March 2025 we put in a bid to acquire the former Bank of Scotland branch in Brodick as a community-owned environmental hub. A central location like this could have provided:",
         "<li>An environmental and sustainability hub with resources for the whole Arran community</li>",
         "<li>Flexible co-working space and meeting rooms for local organisations and remote workers</li>",
         "<li>A vibrant community venue in the former banking hall for events, workshops and gatherings</li>",
         "<li>A visible presence for environmental initiatives in the heart of Brodick</li>",
-        "We're developing investment options at various levels (potentially from £500 to £5,000) with corresponding benefits for community supporters. Investment shares would be withdrawable if the project doesn't proceed. Full prospectus coming soon!"
-      ]
-    },
-    {
-      "id": "focus",
-      "heading": "Our Current Focus: Glen Cloy",
-      "content": [
-        "We're also working toward a community asset transfer of woodland in Glen Cloy from Forestry and Land Scotland. This pilot project will allow us to:",
-        "<li>Develop a prototype for sustainable woodland management</li>",
-        "<li>Create woodland crofting opportunities with affordable housing</li>",
-        "<li>Restore native woodland and enhance biodiversity</li>",
-        "<li>Protect archaeological features and cultural heritage</li>",
-        "<li>Improve water management to reduce flood risk</li>"
-      ]
-    },
-    {
-      "id": "aims",
-      "heading": "We aim to (amongst other aims!)",
-      "content": [
-        "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
-        "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
-        "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
-        "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design, and inspired by the HiFar initiative."
+        "If our bid had been successful, we had planned to develop investment options at various levels (potentially from £100 to £5,000) with corresponding benefits for community supporters. Investment shares would have been withdrawable if the project hadn't proceeded. We will continue to identify opportunities like these that could benefit the wider community as well as contributing to the goals of our own organisation."
       ]
     },
     {
