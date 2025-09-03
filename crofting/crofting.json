@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "heading": "Dùthchas Arainn",
+    "subheading": "COMMUNITY BENEFIT SOCIETY",
+    "content": "A community-owned approach to sustainable land management on Arran"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "heading": "Dùthchas Arainn is a Community Benefit Society established to hold land and assets in community ownership for the benefit of Arran's people. We're working to create a sustainable future for our island through woodland crofting, natural conservation, and cultural heritage preservation.",
+      "content": [],
+      "cta": []
+    },
+    {
+      "id": "register",
+      "heading": "Become a Member - Before May 1st!",
+      "content": [
+        "We're building a diverse community of members who share our vision for Arran. As a member, you'll help shape our priorities and contribute to our collective goals. Don't miss the May 1st deadline to become a founding member!",
+        "Membership is open to:",
+        "<li>Community Members (KA27 residents)</li>",
+        "<li>Supporter Members (anyone outside KA27)</li>",
+        "Join us by completing our membership form and purchasing shares:"
+      ],
+      "cta": [
+        {
+          "text": "COMPLETE ONLINE",
+          "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
+          "target": "_blank"
+        },
+        {
+          "text": "DOWNLOAD PDF",
+          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "id": "aims",
+      "heading": "We aim to (amongst other aims!)",
+      "content": [
+        "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
+        "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
+        "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
+        "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design, and inspired by the HiFar initiative."
+      ]
+    },
+    {
+      "id": "focus",
+      "heading": "Current Project: Glen Cloy",
+      "content": [
+        "We're working toward a community asset transfer of woodland in Glen Cloy from Forestry and Land Scotland. This pilot project will allow us to:",
+        "<li>Develop a prototype for sustainable woodland management</li>",
+        "<li>Create woodland crofting opportunities with affordable housing</li>",
+        "<li>Restore native woodland and enhance biodiversity</li>",
+        "<li>Protect archaeological features and cultural heritage</li>",
+        "<li>Improve water management to reduce flood risk</li>"
+      ]
+    },
+    {
+      "id": "sessions",
+      "heading": "Community Information Sessions",
+      "content": [
+        "We hosted various sessions across Arran in March and April 2025. The meetings in Brodick and Lamlash and the online meeting are postponed until later in the year."
+      ],
+      "sessions": [
+        {
+          "date": "Mon March 24th",
+          "time": "2-4pm",
+          "location": "Kilmory Hall"
+        },
+        {
+          "date": "Wed March 26th",
+          "time": "1-3pm",
+          "location": "Corrie & Sannox Hall*"
+        },
+        {
+          "date": "Mon March 31st",
+          "time": "2-4pm",
+          "location": "Pirnmill Hall"
+        },
+        {
+          "date": "Wed April 2nd",
+          "time": "4-5:45pm",
+          "location": "Shiskine Hall"
+        },
+        {
+          "date": "Mon April 7th",
+          "time": "2-4pm",
+          "location": "Whiting Bay Hall"
+        },
+        {
+          "date": "Tue April 8th",
+          "time": "4-6pm",
+          "location": "Lochranza & Catacol Hall"
+        },
+        {
+          "date": "Tue April 15th",
+          "time": "2-4pm",
+          "location": "Kildonan Hall"
+        },
+        {
+          "date": "Postponed",
+          "time": "Postponed",
+          "location": "Lamlash and Brodick**"
+        },
+        {
+          "date": "Postponed",
+          "time": "Postponed",
+          "location": "Online Session**"
+        }
+      ],
+      "session_notes": "*We will also be at the Zero Waste Cafe beforehand\n**New dates for these meetings will be confirmed later in 2025"
+    },
+    {
+      "id": "opportunity",
+      "heading": "Our attempt to buy the Former Bank of Scotland Building in Brodick",
+      "content": [
+        "In March 2025 we put in a bid to acquire the former Bank of Scotland branch in Brodick as a community-owned environmental hub. A central location like this could have provided:",
+        "<li>An environmental and sustainability hub with resources for the whole Arran community</li>",
+        "<li>Flexible co-working space and meeting rooms for local organisations and remote workers</li>",
+        "<li>A vibrant community venue in the former banking hall for events, workshops and gatherings</li>",
+        "<li>A visible presence for environmental initiatives in the heart of Brodick</li>",
+        "If our bid had been successful, we had planned to develop investment options at various levels (potentially from £100 to £5,000) with corresponding benefits for community supporters. Investment shares would have been withdrawable if the project hadn't proceeded. We will continue to identify opportunities like these that could benefit the wider community as well as contributing to the goals of our own organisation."
+      ]
+    },
+    {
+      "id": "duthchas-section",
+      "heading": null,
+      "content": [
+        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
+      ]
+    }
+  ]
+}
