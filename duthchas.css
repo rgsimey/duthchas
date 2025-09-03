@@ -22,6 +22,8 @@ body.is-preload * {
   text-align: center;
   color: #ffffff;
   background-position-x: 60%;
+  background-attachment: fixed;
+  background-size: cover;
   padding: 0 1em;
   height: 50vh;
   min-height: 350px;
@@ -99,14 +101,18 @@ body.is-preload * {
 
 #mainContent {
   padding-bottom: 50vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: inherit;
 }
 
 main > section {
   padding: 2em 3em 1.5em 3em;
-  color: #dddddd;
   position: relative;
   display: flex;
   align-items: center;
+  backdrop-filter: blur(1px);
 }
 @media screen and (max-width: 768px) {
   main > section {
@@ -116,18 +122,49 @@ main > section {
 main > section h3 {
   font-size: 1.4rem;
 }
-main > section:nth-child(2n+1) {
-  background-color: #363dad;
+
+/* Dark purple sections - full opacity */
+main > section:nth-child(3n+1) {
+  background-color: rgba(54, 61, 173, 0.95);
+  color: #ffffff;
 }
-main > section:nth-child(2n+1) .cta-button:hover {
-  background-color: #575ab8;
+main > section:nth-child(3n+1) .cta-button:hover {
+  background-color: rgba(87, 90, 184, 0.9);
 }
-main > section:nth-child(2n+2) {
-  background-color: #575ab8;
+main > section:nth-child(3n+1) a {
+  color: #dddddd;
 }
-main > section:nth-child(2n+2) .cta-button:hover {
-  background-color: #363dad;
+
+/* Medium purple sections - semi-transparent */
+main > section:nth-child(3n+2) {
+  background-color: rgba(87, 90, 184, 0.75);
+  color: #ffffff;
 }
+main > section:nth-child(3n+2) .cta-button:hover {
+  background-color: rgba(54, 61, 173, 0.9);
+}
+main > section:nth-child(3n+2) a {
+  color: #dddddd;
+}
+
+/* Light sections - very transparent */
+main > section:nth-child(3n+3) {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #333333;
+}
+main > section:nth-child(3n+3) .cta-button {
+  border-color: #363dad;
+  color: #363dad;
+  box-shadow: 2px 2px 4px rgba(54, 61, 173, 0.3);
+}
+main > section:nth-child(3n+3) .cta-button:hover {
+  background-color: rgba(54, 61, 173, 0.9);
+  color: #ffffff;
+}
+main > section:nth-child(3n+3) a {
+  color: #363dad;
+}
+
 main > section#duthchas p {
   font-weight: bold;
   font-style: italic;
@@ -172,10 +209,6 @@ main > section p,
 main > section li {
   white-space: pre-line;
   font-size: 1.17em;
-}
-main > section a {
-  color: #dddddd;
-  text-decoration: underline;
 }
 @media screen and (max-width: 980px) {
   main > section ul {
@@ -295,11 +328,11 @@ input[type=submit]:hover {
   font-size: 1.17em;
 }
 .sessions-table tr:nth-child(2n+1) {
-  background-color: #363dad;
+  background-color: rgba(255,255,255,0.1);
 }
 .sessions-table tr:nth-child(2n+2) {
-  background-color: #575ab8;
+  background-color: rgba(255,255,255,0.05);
 }
 .sessions-table thead tr {
   background-color: transparent !important;
-}/*# sourceMappingURL=duthchas.css.map */
+}
