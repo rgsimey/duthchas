@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Spectral by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
   <head>
@@ -12,11 +12,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
     <link rel="stylesheet" href="../duthchas.css" />
-    <!-- <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
     <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
-    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
     <meta
       property="og:title"
       content="Dùthchas Arainn - Community Benefit Society"
@@ -26,9 +24,6 @@
       property="og:description"
       content="Dùthchas Arainn is a community benefit society that exists to hold assets for the Isle of Arran community, land, buildings, infrastructure with the aim of natural conservation and protection of our community heritage."
     />
-    <!-- <meta property="og:image" content="https://pioneerproject.scot/img/logo-orange.png" />
-    <meta property="og:image:secure_url" content="https://pioneerproject.scot/images/logo-orange.png" />
-    <meta property="og:url" content="https://pioneerproject.scot" /> -->
     <meta
       property="og:site_name"
       content="Dùthchas Arainn - Community Benefit Society"
@@ -38,24 +33,6 @@
   <body class="landing is-preload">
     <!-- Page Wrapper -->
     <div id="page-wrapper">
-      <!-- Header -->
-      <!-- <header id="header">
-            <h1><a href="index.html">Dùthchas Arainn</a></h1>
-            <nav id="nav">
-                <ul>
-                    <li class="special">
-                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
-                        <div id="menu">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/projects/">Projects</a></li>
-                                <li><a href="/get-involved/">Get Involved</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </header> -->
       <main id="mainContent">
         <script id="mainContentTemplate" type="text/x-handlebars-template">
           <!-- Banner -->
@@ -65,7 +42,7 @@
                 background-image: url('{{hero.imageUrl}}');
                 position: fixed;
                 width: 100%;
-                background-image: url(images/banner.jpg);
+                background-image: url(../images/banner.jpg);
                 background-position: 60% 65%;
                 z-index: 0;
               "
@@ -80,10 +57,7 @@
                   class="button big cta-button"
                 >{{hero.cta.text}}</a>
               {{/if}}
-              <!-- <a onclick="document.getElementById('introduction').scrollIntoView({behavior:'smooth'});">Learn
-                                More<br>⌄</a> -->
             </div>
-            <!-- <a href="#introduction" class="more scrolly">Learn More</a> -->
           </header>
 
           {{#each sections}}
@@ -149,19 +123,12 @@
             >Kelvin Digital</a
           >
         </p>
-        <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
       </footer>
     </div>
 
     <!-- Scripts -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/jquery.scrollex.min.js"></script>
-    <script src="../assets/js/jquery.scrolly.min.js"></script>
-    <script src="../assets/js/browser.min.js"></script>
-    <script src="../assets/js/breakpoints.min.js"></script>
-    <script src="../assets/js/util.js"></script>
-    <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/jQuery.ajaxSubmit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollex/0.2.1/jquery.scrollex.min.js"></script>
 
     <script defer>
       fetch("crofting.json")
@@ -172,36 +139,21 @@
           ).innerHTML;
           const template = Handlebars.compile(templateSource);
           const compiledHtml = template(data);
-          document.getElementById("mainContent").innerHTML = compiledHtml; // Insert into the DOM
-
-          // $('#banner').iosParallax({
-          //     // How fast the background moves
-          //     movementFactor: 50,
-          //     // How much to dampen the movement (higher is slower)
-          //     dampenFactor: 36
-          // });
+          document.getElementById("mainContent").innerHTML = compiledHtml;
 
           document.addEventListener("scroll", function () {
             const scrollPosition = window.pageYOffset;
-            const banner = document.getElementById("duthchas");
-            banner.style.backgroundPositionY =
-              -(scrollPosition * 0.8 + 200) + "px";
-          });
-
-          $("#registration-form").ajaxSubmit({
-            after: function (res) {
-              // console.log("Posted");
-              $("#registration-form").after(
-                "<p>Thank you for registering your interest. You have been added to our mailing list.</p>"
-              );
-              $("#registration-form").remove();
-            },
+            const banner = document.getElementById("banner");
+            if (banner) {
+              banner.style.backgroundPositionY =
+                -(scrollPosition * 0.8 + 200) + "px";
+            }
           });
         })
         .catch((error) => {
           console.error("Error loading data:", error);
           document.getElementById("mainContent").innerHTML =
-            "<p>Error loading data.</p>"; // Provide user feedback
+            "<p>Error loading data.</p>";
         });
     </script>
   </body>
