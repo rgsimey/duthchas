@@ -223,10 +223,40 @@ main > section ul li {
   padding-bottom: 0.5em;
   text-align: left;
 }
-main > section > div {
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
+/* Two-column layout for specific sections */
+#vision-goals > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+}
+
+#vision-goals h3 {
+  grid-column: 1 / -1;
+}
+
+#vision-goals p:nth-of-type(1),
+#vision-goals p:nth-of-type(2),
+#vision-goals p:nth-of-type(3) {
+  grid-column: 1;
+}
+
+#vision-goals p:nth-of-type(4),
+#vision-goals p:nth-of-type(5),
+#vision-goals p:nth-of-type(6) {
+  grid-column: 2;
+}
+
+@media screen and (max-width: 768px) {
+  #vision-goals > div {
+    grid-template-columns: 1fr;
+  }
+  
+  #vision-goals p:nth-of-type(4),
+  #vision-goals p:nth-of-type(5),
+  #vision-goals p:nth-of-type(6) {
+    grid-column: 1;
+  }
 }
 
 form {
