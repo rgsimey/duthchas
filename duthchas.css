@@ -223,39 +223,70 @@ main > section ul li {
   padding-bottom: 0.5em;
   text-align: left;
 }
+main > section > div {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
 /* Two-column layout for specific sections */
 #vision-goals > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   max-width: 1200px;
+  grid-auto-rows: min-content;
 }
 
 #vision-goals h3 {
   grid-column: 1 / -1;
+  margin-bottom: 1rem;
 }
 
-#vision-goals p:nth-of-type(1),
-#vision-goals p:nth-of-type(2),
+#vision-goals p:nth-of-type(1) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#vision-goals p:nth-of-type(2) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
 #vision-goals p:nth-of-type(3) {
   grid-column: 1;
+  grid-row: 4;
 }
 
-#vision-goals p:nth-of-type(4),
-#vision-goals p:nth-of-type(5),
+#vision-goals p:nth-of-type(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#vision-goals p:nth-of-type(5) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
 #vision-goals p:nth-of-type(6) {
   grid-column: 2;
+  grid-row: 4;
 }
 
 @media screen and (max-width: 768px) {
   #vision-goals > div {
     grid-template-columns: 1fr;
+    max-width: 800px;
   }
   
+  #vision-goals p:nth-of-type(1),
+  #vision-goals p:nth-of-type(2),
+  #vision-goals p:nth-of-type(3),
   #vision-goals p:nth-of-type(4),
   #vision-goals p:nth-of-type(5),
   #vision-goals p:nth-of-type(6) {
     grid-column: 1;
+    grid-row: auto;
   }
 }
 
