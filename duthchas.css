@@ -380,79 +380,8 @@ input[type=submit]:hover {
   color: #ffffff;
 }
 
-/* Enhanced styling for the woodland crofting vision section */
 #introduction {
   text-align: center;
-  padding: 3em 2em 2.5em 2em;
-  background: linear-gradient(135deg, rgba(54, 61, 173, 0.95), rgba(87, 90, 184, 0.9));
-  position: relative;
-}
-
-#introduction > div {
-  max-width: 900px;
-}
-
-#introduction h3 {
-  font-size: 2.2em;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 1em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  position: relative;
-}
-
-#introduction h3:before {
-  content: "";
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='white'%3E%3C!-- Tree --%3E%3Cpath d='M35 85 L35 75 L25 75 Q20 75 20 70 L20 60 Q20 55 25 55 L30 55 Q25 50 25 45 Q25 35 35 35 Q40 30 45 35 Q55 35 55 45 Q55 50 50 55 L55 55 Q60 55 60 60 L60 70 Q60 75 55 75 L45 75 L45 85 Z'/%3E%3C!-- House --%3E%3Cpath d='M55 85 L55 65 L50 60 L70 40 L90 60 L85 65 L85 85 L75 85 L75 75 L65 75 L65 85 Z'/%3E%3Crect x='67' y='77' width='6' height='6' fill='%23363dad'/%3E%3C/svg%3E");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 15px;
-  vertical-align: middle;
-  position: relative;
-  top: -2px;
-}
-
-#introduction p {
-  font-size: 1.3em;
-  font-weight: 400;
-  line-height: 1.6;
-  margin-bottom: 1.5em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-#introduction:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 3px;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
-}
-
-@media screen and (max-width: 768px) {
-  #introduction {
-    padding: 2.5em 1em 2em 1em;
-  }
-  
-  #introduction h3 {
-    font-size: 1.8em;
-    letter-spacing: 0.5px;
-  }
-  
-  #introduction h3:before {
-    width: 45px;
-    height: 45px;
-    margin-right: 10px;
-  }
-  
-  #introduction p {
-    font-size: 1.2em;
-  }
 }
 
 .sessions-table th {
