@@ -16,9 +16,20 @@
       "heading": "Share Offers",
       "content": [
         "There are not currently any open share offers. We will launch our prospectus with a new share offer at our second AGM in the last week of October 2025.",
-        "Membership will open following the AGM for those interested in supporting our woodland crofting initiative through Community Asset Transfer."
+        "Membership is open to anyone interested in supporting our woodland crofting initiative through Community Asset Transfer, you can apply to be a member on the following link."
       ],
-      "cta": []
+      "cta": [
+        {
+          "text": "COMPLETE ONLINE",
+          "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
+          "target": "_blank"
+        },
+        {
+          "text": "DOWNLOAD PDF",
+          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf",
+          "target": "_blank"
+        }
+      ]
     },
     {
       "id": "glen-cloy-project",
