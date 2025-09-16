@@ -16,7 +16,7 @@
       "heading": "Share Offers",
       "content": [
         "There are not currently any open share offers. We will launch our prospectus with a new share offer at our second AGM in the last week of October 2025.",
-        "Membership is open to anyone interested in supporting our woodland crofting initiative through Community Asset Transfer, you can apply to be a member on the following link."
+        "Membership is open to anyone interested in supporting our woodland crofting initiative through Community Asset Transfer. Join us by completing our membership form and purchasing a minimum of 10 shares (£10):"
       ],
       "cta": [
         {
@@ -33,7 +33,7 @@
     },
     {
       "id": "glen-cloy-project",
-      "heading": "Our Focus: Community Asset Transfer in Glenrickard",
+      "heading": "Woodland Crofting Pilot Project",
       "content": [
         "We're working toward a Community Asset Transfer (CATS) of woodland in the Glenrickard Management Area of Forestry and Land Scotland around Glen Cloy. This project will allow us to:",
         "<li>Develop a prototype for community-led woodland crofting on Arran</li>",
@@ -42,7 +42,14 @@
         "<li>Protect archaeological features and cultural heritage</li>",
         "<li>Help manage water flow in the Cloyburn to reduce flooding and erosion risks to Brodick seafront</li>",
         "<li>Support sustainable livelihoods while addressing depopulation</li>"
+      ],
+      "cta": [
+        {
+          "text": "FIND OUT MORE ABOUT WOODLAND CROFTING",
+          "url": "/crofting",
+        }
       ]
+
     },
     {
       "id": "cats-scheme",
@@ -67,7 +74,7 @@
       "heading": "Second AGM - October 2025",
       "content": [
         "Our second AGM will take place in the last week of October 2025. Date and venue to be confirmed.",
-        "At this meeting we will launch our investment prospectus for the Glenrickard woodland crofting project and open membership applications to new members.",
+        "At this meeting we will launch our investment prospectus for the Glenrickard woodland crofting project.",
         "Check back here for specific date and location details."
       ]
     },
