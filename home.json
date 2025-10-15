@@ -13,10 +13,9 @@
     },
     {
       "id": "membership-status",
-      "heading": "Share Offers",
+      "heading": "Membership",
       "content": [
-        "There are not currently any open share offers. We will launch our prospectus with a new share offer at our second AGM in the last week of October 2025.",
-        "Membership is open to anyone interested in supporting our woodland crofting initiative through Community Asset Transfer. Join us by completing our membership form and purchasing a minimum of 10 shares (£10):"
+        "Society membership is open to anyone interested in supporting our woodland crofting initiative through Community Asset Transfer. Join us by completing our membership form and purchasing a minimum of 10 shares (£10):"
       ],
       "cta": [
         {
@@ -54,6 +53,14 @@
           "url": "https://duthchas.scot/documents/Name-Change.pdf",
           "target": "_blank"
         }
+      ]
+    },
+    {
+      "id": "upcoming-agm",
+      "heading": "Second AGM - 25th October 2025",
+      "content": [
+        "Our second AGM will take place on Saturday 25th October 2025, 1.30pm at the Banner Lodge (Heather Lodge) in Brodick",
+        "At this meeting we will launch our share offer for the Glenrickard woodland crofting project."
       ]
     },
     {
@@ -95,18 +102,10 @@
       ]
     },
     {
-      "id": "upcoming-agm",
-      "heading": "Second AGM - October 2025",
-      "content": [
-        "Our second AGM will take place on Saturday 25th October 2025, 1.30pm at the Banner Lodge (Heather Lodge) in Brodick",
-        "At this meeting we will launch our share offer for the Glenrickard woodland crofting project."
-      ]
-    },
-    {
       "id": "duthchas-meaning",
       "heading": null,
       "content": [
-        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
+        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://web.archive.org/web/20250429055441/https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
       ]
     }
   ]
