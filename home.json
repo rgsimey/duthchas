@@ -36,6 +36,26 @@
         }
       ]
     },
+    
+    {
+      "id": "society-rules",
+      "heading": "Society Rules",
+      "content": [
+        "Our full society rules are available below. Please note that the society was originally registered under the name \"The Glen Community Benefit Society\" and was later renamed to \"Dùthchas Arainn Community Benefit Society.\" Both documents refer to the same organisation."
+      ],
+      "cta": [
+        {
+          "text": "REGISTRATION DOCUMENT (Original Rules)",
+          "url": "https://duthchas.scot/documents/Registration-of-New-Society.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "NAME CHANGE DOCUMENT",
+          "url": "https://duthchas.scot/documents/Name-Change.pdf",
+          "target": "_blank"
+        }
+      ]
+    },
     {
       "id": "glen-cloy-project",
       "heading": "Woodland Crofting Pilot Project",
