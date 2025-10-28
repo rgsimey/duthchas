@@ -16,22 +16,23 @@
       "id": "share-offer",
       "heading": "Glenrickard Share Offer Now Open",
       "content": [
-        "We've launched our share offer to fund a comprehensive feasibility study for woodland crofting within the Forestry and Land Scotland Glenrickard Land Management Area.",
-      ],
-      "cta": [
-        {
-          "text": "GLENRICKARD SHARE OFFER [PDF]",
-          "url": "https://duthchas.scot/documents/Glenrickard-Share-Offer.pdf",
-          "target": "_blank"
-        }
-      ],
-      "additional_content": [
-        "Approved for a Community Shares Standard Mark, this offer will support ecological assessments, business planning, and community consultation as we work toward Community Asset Transfer of this important woodland.",
+        "We've launched our share offer to fund a comprehensive feasibility study for woodland crofting in the Glenrickard area of Glen Cloy.",
+        "",
+        "This Community Shares Standard Mark approved offer will support ecological assessments, business planning, and community consultation as we work toward Community Asset Transfer of this important woodland.",
+        "",
         "<strong>Investment:</strong>",
         "<li>Minimum: £50 (50 shares @ £1 each)</li>",
         "<li>Target: £30,000</li>",
         "<li>Maximum: £40,000</li>",
+        "",
         "<strong>Timeline:</strong> Open until 31st December 2025"
+      ],
+      "cta": [
+        {
+          "text": "READ MORE",
+          "url": "https://duthchas.scot/documents/Glenrickard-Share-Offer.pdf",
+          "target": "_blank"
+        }
       ]
     },
     {
