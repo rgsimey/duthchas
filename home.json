@@ -7,7 +7,7 @@
   "sections": [
     {
       "id": "introduction",
-      "heading": "Dùthchas Arainn is a Community Benefit Society established to hold land and assets in community ownership for the benefit of Arran's people. We're working to create a sustainable future for our island through woodland crofting, natural conservation, and cultural heritage preservation.",
+      "heading": "Dùthchas Arainn is a Community Benefit Society with 47 members, established to hold land and assets in community ownership for the benefit of Arran's people. We're working to create a sustainable future for our island through woodland crofting, natural conservation, and cultural heritage preservation.",
       "content": [],
       "cta": []
     },
@@ -16,7 +16,7 @@
       "id": "share-offer",
       "heading": "Glenrickard Share Offer Now Open",
       "content": [
-        "We've launched our share offer to fund a comprehensive feasibility study for woodland crofting in Forestry and Land Scotland's Glenrickard Land Management Area (Glencloy).",
+        "We've launched our share offer to fund a comprehensive feasibility study for woodland crofting in Forestry and Land Scotland's Glenrickard Land Management Area (Glencloy)",
         "",
         "This Community Shares Standard Mark approved offer will support ecological assessments, business planning, and community consultation as we work toward Community Asset Transfer of this important woodland.",
         "",
@@ -25,11 +25,12 @@
         "<li>Target: £30,000</li>",
         "<li>Maximum: £40,000</li>",
         "",
-        "<strong>Timeline:</strong> Open until 31st December 2025"
+        "<strong>Timeline:</strong> Extended to 1st May 2026 (Beltane)",
+        "<strong>Progress:</strong> 800 shares sold from 11 members (£800 raised)"
       ],
       "cta": [
         {
-          "text": "GLENRICKARD SHARE OFFER [PDF]",
+          "text": "GLENRICKARD SHARE OFFER <small>[PDF]</small>",
           "url": "https://duthchas.scot/documents/Glenrickard-Share-Offer.pdf",
           "target": "_blank"
         }
@@ -95,10 +96,15 @@
       "id": "recent-agm",
       "heading": "Second AGM - 25th October 2025",
       "content": [
-        "Our second AGM took place on Saturday 25th October 2025 at the Banner Lodge (Heather Lodge) in Brodick, where we launched the Glenrickard share offer.",
-        "Minutes coming soon."
+        "Our second AGM took place on Saturday 25th October 2025 at the Banner Lodge (Heather Lodge) in Brodick, where we launched the Glenrickard share offer."
       ],
-      "cta": []
+      "cta": [
+        {
+          "text": "READ AGM MINUTES [PDF]",
+          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-AGM2-minutes.pdf",
+          "target": "_blank"
+        }
+      ]
     },
     {
       "id": "cats-scheme",
