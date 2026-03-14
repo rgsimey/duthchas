@@ -473,13 +473,9 @@ main > section#duthchas-meaning a {
   color: #FBF880;
 }
 
-main > section#film > div {
-  max-width: 1100px;
-}
-
-main > section#film p {
-  margin: 0;
-  width: 100%;
+main > section#film iframe {
+  max-width: 100%;
+  display: block;
 }
 
 @media screen and (min-width: 769px) {
