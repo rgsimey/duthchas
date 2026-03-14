@@ -462,7 +462,7 @@ main > section#membership-status a {
 }
 
 main > section#duthchas-meaning {
-  background-color: #1a1f7a !important;
+  background-color: rgba(26, 31, 122, 0.85) !important;
 }
 
 main > section#duthchas-meaning p {
@@ -480,20 +480,6 @@ main > section#film > div {
 main > section#film p {
   margin: 0;
   width: 100%;
-}
-
-.video-embed {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-}
-
-.video-embed iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 @media screen and (min-width: 769px) {
