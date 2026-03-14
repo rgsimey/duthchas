@@ -123,7 +123,7 @@
                     {{#each this.cta}}
                       <a
                         href="{{this.url}}"
-                        class="button cta-button"
+                        class="button cta-button {{this.class}}"
                         target="{{this.target}}"
                       >{{this.text}}</a>
                     {{/each}}
@@ -145,8 +145,7 @@
         >
         <p>
           Website by <a href="http://rgsimey.scot" target="_blank">RGSimey</a> &
-          <a href="mailto:chris@kelvindigital.co.uk" target="_blank"
-            >Kelvin Digital</a
+          <a href="/cdn-cgi/l/email-protection#7e1d160c170d3e151b120817101a1719170a1f12501d11500b15" target="_blank">Kelvin Digital</a
           >
         </p>
         <!-- <li>Website: <a href="http://rgsimey.scot">rgsimey.scot</a></li> -->
@@ -154,7 +153,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
@@ -200,9 +199,4 @@
         })
         .catch((error) => {
           console.error("Error loading data:", error);
-          document.getElementById("mainContent").innerHTML =
-            "<p>Error loading data.</p>"; // Provide user feedback
-        });
-    </script>
-  </body>
-</html>
+          document.getElement
