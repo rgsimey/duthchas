@@ -199,4 +199,9 @@
         })
         .catch((error) => {
           console.error("Error loading data:", error);
-          document.getElement
+          document.getElementById("mainContent").innerHTML =
+            "<p>Error loading data.</p>";
+        });
+    </script>
+  </body>
+</html>
