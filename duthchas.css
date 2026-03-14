@@ -375,7 +375,7 @@ input[type=submit]:hover {
 
 main > section#film > div {
   width: 100%;
-  max-width: 720px;
+  max-width: 580px;
 }
 main > section#film h3 {
   text-align: center;
