@@ -503,3 +503,29 @@ main > section#membership-status .cta-button.primary:hover {
   border-color: #FBF880 !important;
   color: #1a1f7a !important;
 }
+
+main > section#film {
+  overflow: hidden;
+}
+
+main > section#film h3 {
+  text-align: center;
+}
+
+main > section#duthchas-meaning p {
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta-container .cta-button {
+    width: 100%;
+    margin: 0.25rem 0;
+    box-sizing: border-box;
+  }
+}
