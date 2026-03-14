@@ -314,7 +314,7 @@ input[type=submit]:hover {
 }
 
 #footer {
-  background-color: #1a1f7a;
+  background-color: #0d1040;
   padding: 1em 0;
   text-align: center;
   color: #dddddd;
@@ -375,7 +375,7 @@ input[type=submit]:hover {
 
 main > section#film > div {
   width: 100%;
-  max-width: 580px;
+  max-width: 720px;
 }
 main > section#film h3 {
   text-align: center;
