@@ -31,17 +31,18 @@
       ],
       "cta": [
         {
-          "text": "JOIN ONLINE — £10 MINIMUM",
+          "text": "JOIN ONLINE (£10 MINIMUM)",
           "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
-          "target": "_blank"
+          "target": "_blank",
+          "class": "primary"
         },
         {
-          "text": "DOWNLOAD MEMBERSHIP FORM [PDF]",
+          "text": "PRINT MEMBERSHIP FORM",
           "url": "https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf",
           "target": "_blank"
         },
         {
-          "text": "MEMBERSHIP INFORMATION [PDF]",
+          "text": "INFO FOR MEMBERS",
           "url": "https://duthchas.scot/documents/DuthchasArainnCBS-Membership-Info.pdf",
           "target": "_blank"
         }
@@ -50,7 +51,7 @@
 
     {
       "id": "share-offer",
-      "heading": "Glenrickard Share Offer — Open Until 1st May 2026",
+      "heading": "Glenrickard Share Offer - Open Until 1st May 2026",
       "content": [
         "Members can also invest in the Glenrickard Share Offer to fund a comprehensive feasibility study for woodland crofting in Forestry and Land Scotland's Glenrickard Land Management Area (Glencloy).",
         "",
@@ -137,7 +138,7 @@
 
     {
       "id": "recent-agm",
-      "heading": "Second AGM — 25th October 2025",
+      "heading": "Second AGM - 25th October 2025",
       "content": [
         "Our second AGM took place on Saturday 25th October 2025 at the Banner Lodge (Heather Lodge) in Brodick, where we launched the Glenrickard share offer."
       ],
