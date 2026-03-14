@@ -7,16 +7,52 @@
   "sections": [
     {
       "id": "introduction",
-      "heading": "Dùthchas Arainn is a Community Benefit Society with 51 members, established to hold land and assets in community ownership for the benefit of Arran's people. We're working to create a sustainable future for our island through woodland crofting, natural conservation, and cultural heritage preservation.",
+      "heading": "Dùthchas Arainn is a Community Benefit Society established to hold land and assets in community ownership for the benefit of Arran's people. We're working to create a sustainable future for our island through woodland crofting, natural conservation, and cultural heritage preservation.",
       "content": [],
       "cta": []
     },
-    
+
+    {
+      "id": "film",
+      "heading": "Woodland Crofting in Arran for Biodiversity",
+      "content": [
+        "<div class=\"video-embed\"><iframe width=\"100%\" height=\"415\" src=\"https://www.youtube.com/embed/Gj2-XR2Bdrw\" title=\"Woodland Crofting in Arran for Biodiversity\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>"
+      ],
+      "cta": []
+    },
+
+    {
+      "id": "membership-status",
+      "heading": "Become a Member",
+      "content": [
+        "Society membership is always open. Join 51 members who are already part of Dùthchas Arainn and have your say in how we manage land on Arran for generations to come.",
+        "",
+        "Membership requires a minimum of 10 shares (£10). As a member you'll receive updates on the CAT application, invitations to AGMs and community events, and a vote in how the society is run."
+      ],
+      "cta": [
+        {
+          "text": "JOIN ONLINE — £10 MINIMUM",
+          "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
+          "target": "_blank"
+        },
+        {
+          "text": "DOWNLOAD MEMBERSHIP FORM [PDF]",
+          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "MEMBERSHIP INFORMATION [PDF]",
+          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-Membership-Info.pdf",
+          "target": "_blank"
+        }
+      ]
+    },
+
     {
       "id": "share-offer",
-      "heading": "Glenrickard Share Offer Now Open",
+      "heading": "Glenrickard Share Offer — Open Until 1st May 2026",
       "content": [
-        "We've launched our share offer to fund a comprehensive feasibility study for woodland crofting in Forestry and Land Scotland's Glenrickard Land Management Area (Glencloy)",
+        "Members can also invest in the Glenrickard Share Offer to fund a comprehensive feasibility study for woodland crofting in Forestry and Land Scotland's Glenrickard Land Management Area (Glencloy).",
         "",
         "This Community Shares Standard Mark approved offer will support ecological assessments, business planning, and community consultation as we work toward Community Asset Transfer of this important woodland.",
         "",
@@ -36,35 +72,12 @@
         }
       ]
     },
-    {
-      "id": "membership-status",
-      "heading": "Membership",
-      "content": [
-        "Society membership is open to anyone interested in supporting our woodland crofting initiative through Community Asset Transfer. Join us by completing our membership form and purchasing a minimum of 10 shares (£10):"
-      ],
-      "cta": [
-        {
-          "text": "COMPLETE ONLINE",
-          "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
-          "target": "_blank"
-        },
-        {
-          "text": "DOWNLOAD PDF",
-          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-MembershipRegistrationForm.pdf",
-          "target": "_blank"
-        },
-        {
-          "text": "INFO FOR MEMBERS [PDF]",
-          "url": "https://duthchas.scot/documents/DuthchasArainnCBS-Membership-Info.pdf",
-          "target": "_blank"
-        }
-      ]
-    },
+
     {
       "id": "woodland-crofting",
       "heading": "Woodland Crofting on Arran",
       "content": [
-        "Woodland crofting combines sustainable forestry with small-scale agriculture and affordable housing. Our Glenrickard pilot project will demonstrate how this model can work on Arran, supporting livelihoods while regenerating native woodland and protecting our island's cultural heritage."
+        "Woodland crofting combines sustainable forestry with small-scale agriculture and affordable housing. Our Glenrickard pilot project will demonstrate how this model can work in Arran, supporting livelihoods while regenerating native woodland and protecting our island's cultural heritage."
       ],
       "cta": [
         {
@@ -73,6 +86,35 @@
         }
       ]
     },
+
+    {
+      "id": "our-aims",
+      "heading": "We aim to (amongst other aims!)",
+      "content": [
+        "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
+        "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
+        "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
+        "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design"
+      ]
+    },
+
+    {
+      "id": "cats-scheme",
+      "heading": "What is Community Asset Transfer (CATS)?",
+      "content": [
+        "Community Asset Transfers allow community organisations to acquire publicly-owned land at below-market value for community benefit. Established by the Community Empowerment (Scotland) Act 2015, this gives communities a legal right to request transfer of public assets from bodies like Forestry and Land Scotland.",
+        "Forestry and Land Scotland has completed 26 successful transfers since 2016, supporting projects from renewable energy to woodland management. For our project, CATS provides a proven pathway to community ownership, enabling sustainable woodland management that combines conservation with livelihood creation."
+      ]
+    },
+
+    {
+      "id": "duthchas-meaning",
+      "heading": null,
+      "content": [
+        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://web.archive.org/web/20250429055441/https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
+      ]
+    },
+
     {
       "id": "society-rules",
       "heading": "Society Rules",
@@ -92,9 +134,10 @@
         }
       ]
     },
+
     {
       "id": "recent-agm",
-      "heading": "Second AGM - 25th October 2025",
+      "heading": "Second AGM — 25th October 2025",
       "content": [
         "Our second AGM took place on Saturday 25th October 2025 at the Banner Lodge (Heather Lodge) in Brodick, where we launched the Glenrickard share offer."
       ],
@@ -104,31 +147,6 @@
           "url": "https://duthchas.scot/documents/DuthchasArainnCBS-AGM2-minutes.pdf",
           "target": "_blank"
         }
-      ]
-    },
-    {
-      "id": "cats-scheme",
-      "heading": "What is Community Asset Transfer (CATS)?",
-      "content": [
-        "Community Asset Transfers allow community organisations to acquire publicly-owned land at below-market value for community benefit. Established by the Community Empowerment (Scotland) Act 2015, this gives communities a legal right to request transfer of public assets from bodies like Forestry and Land Scotland.",
-        "Forestry and Land Scotland has completed 26 successful transfers since 2016, supporting projects from renewable energy to woodland management. For our project, CATS provides a proven pathway to community ownership, enabling sustainable woodland management that combines conservation with livelihood creation."
-      ]
-    },
-    {
-      "id": "our-aims",
-      "heading": "We aim to (amongst other aims!)",
-      "content": [
-        "Secure by community asset transfer, and conserve, expand and connect areas of remaining ancient woodland for conservation, community access and regenerative land management, outdoor activities and education",
-        "Maintain and improve waterways within these woodland both for research, community enjoyment and conservation, but also flood mitigation purposes for our village communities at risk of coastal erosion",
-        "To investigate further, and preserve and protect, our cultural monuments throughout this highly rich and under-researched landscape",
-        "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design"
-      ]
-    },
-    {
-      "id": "duthchas-meaning",
-      "heading": null,
-      "content": [
-        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://web.archive.org/web/20250429055441/https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
       ]
     }
   ]
