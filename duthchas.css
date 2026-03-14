@@ -452,8 +452,22 @@ input[type=submit]:hover {
   background-color: #1a1f7a;
 }
 
+main > section#membership-status {
+  background-color: #1a1f7a !important;
+  color: #ffffff;
+}
+
+main > section#membership-status a {
+  color: #dddddd;
+}
+
 main > section#film > div {
   max-width: 1100px;
+}
+
+main > section#film p {
+  margin: 0;
+  width: 100%;
 }
 
 .video-embed {
@@ -483,14 +497,15 @@ main > section#film > div {
 }
 
 .cta-button.primary {
-  background-color: #FBF880;
-  color: #363dad;
+  background-color: transparent;
+  color: #FBF880;
   border-color: #FBF880;
-  box-shadow: 2px 2px 4px rgba(251, 248, 128, 0.3);
+  border-width: 2px;
+  box-shadow: none;
 }
 
 .cta-button.primary:hover {
-  background-color: #faf642;
-  border-color: #faf642;
-  color: #363dad;
+  background-color: #FBF880;
+  border-color: #FBF880;
+  color: #1a1f7a;
 }
