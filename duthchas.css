@@ -504,12 +504,19 @@ main > section#membership-status .cta-button.primary:hover {
   color: #1a1f7a !important;
 }
 
-main > section#film {
-  overflow: hidden;
-}
-
 main > section#film h3 {
   text-align: center;
+}
+
+main > section#film p {
+  width: 100%;
+  margin: 0;
+}
+
+main > section#film iframe {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 main > section#duthchas-meaning p {
