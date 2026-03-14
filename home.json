@@ -11,16 +11,14 @@
       "content": [],
       "cta": []
     },
-
     {
       "id": "film",
       "heading": "Woodland Crofting in Arran for Biodiversity",
       "content": [
-          "<iframe style=\"width:100%;aspect-ratio:16/9;display:block;\" src=\"https://www.youtube.com/embed/Gj2-XR2Bdrw\" title=\"Woodland Crofting in Arran for Biodiversity\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        "<div class=\"video-embed\"><iframe width=\"100%\" height=\"415\" src=\"https://www.youtube.com/embed/Gj2-XR2Bdrw\" title=\"Woodland Crofting in Arran for Biodiversity\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>"
       ],
       "cta": []
     },
-
     {
       "id": "membership-status",
       "heading": "Become a Member",
@@ -48,7 +46,6 @@
         }
       ]
     },
-
     {
       "id": "share-offer",
       "heading": "Glenrickard Share Offer - Open Until 1st May 2026",
@@ -73,7 +70,6 @@
         }
       ]
     },
-
     {
       "id": "woodland-crofting",
       "heading": "Woodland Crofting on Arran",
@@ -87,7 +83,6 @@
         }
       ]
     },
-
     {
       "id": "our-aims",
       "heading": "We aim to (amongst other aims!)",
@@ -98,7 +93,6 @@
         "To develop low impact, sustainable and environmentally friendly 'green' homes for primary sector workers on the island, with an emphasis on affordability, using local materials and vernacular Arran design"
       ]
     },
-
     {
       "id": "cats-scheme",
       "heading": "What is Community Asset Transfer (CATS)?",
@@ -107,15 +101,6 @@
         "Forestry and Land Scotland has completed 26 successful transfers since 2016, supporting projects from renewable energy to woodland management. For our project, CATS provides a proven pathway to community ownership, enabling sustainable woodland management that combines conservation with livelihood creation."
       ]
     },
-
-    {
-      "id": "duthchas-meaning",
-      "heading": null,
-      "content": [
-        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://web.archive.org/web/20250429055441/https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
-      ]
-    },
-
     {
       "id": "society-rules",
       "heading": "Society Rules",
@@ -135,7 +120,6 @@
         }
       ]
     },
-
     {
       "id": "recent-agm",
       "heading": "Second AGM - 25th October 2025",
@@ -148,6 +132,13 @@
           "url": "https://duthchas.scot/documents/DuthchasArainnCBS-AGM2-minutes.pdf",
           "target": "_blank"
         }
+      ]
+    },
+    {
+      "id": "duthchas-meaning",
+      "heading": null,
+      "content": [
+        "\"Dùthchas\" is a Gaelic word that encompasses a deep connection to land, heritage, and community—embodying our relationship with Arran and our responsibility to care for it. Learn more about dùthchas in this article: <a target='_blank' href='https://web.archive.org/web/20250429055441/https://www.theshielingproject.org/posts/d%C3%B9thchas-what-are-we-actually-talking-about'>Dùthchas - What are we actually talking about?</a>"
       ]
     }
   ]

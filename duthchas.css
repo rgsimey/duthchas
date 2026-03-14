@@ -496,7 +496,7 @@ main > section#film p {
   }
 }
 
-.cta-button.primary {
+main > section#membership-status .cta-button.primary {
   background-color: transparent;
   color: #FBF880;
   border-color: #FBF880;
@@ -504,8 +504,8 @@ main > section#film p {
   box-shadow: none;
 }
 
-.cta-button.primary:hover {
-  background-color: #FBF880;
-  border-color: #FBF880;
-  color: #1a1f7a;
+main > section#membership-status .cta-button.primary:hover {
+  background-color: #FBF880 !important;
+  border-color: #FBF880 !important;
+  color: #1a1f7a !important;
 }
