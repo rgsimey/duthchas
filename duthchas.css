@@ -229,38 +229,6 @@ main > section > div {
   position: relative;
 }
 
-/* Wider container for video embed */
-main > section#film > div {
-  max-width: 1100px;
-}
-
-.video-embed {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-}
-
-.video-embed iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Button row: wrap neatly, equal width on desktop */
-@media screen and (min-width: 769px) {
-  .cta-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  .cta-container .cta-button {
-    flex: 1 1 auto;
-    margin: 0;
-  }
-}
-
 /* Two-column layout for specific sections */
 #vision-goals > div {
   display: grid;
@@ -269,48 +237,21 @@ main > section#film > div {
   max-width: 1200px;
   grid-auto-rows: min-content;
 }
-
 #vision-goals h3 {
   grid-column: 1 / -1;
   margin-bottom: 1rem;
 }
-
-#vision-goals p:nth-of-type(1) {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-#vision-goals p:nth-of-type(2) {
-  grid-column: 1;
-  grid-row: 3;
-}
-
-#vision-goals p:nth-of-type(3) {
-  grid-column: 1;
-  grid-row: 4;
-}
-
-#vision-goals p:nth-of-type(4) {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-#vision-goals p:nth-of-type(5) {
-  grid-column: 2;
-  grid-row: 3;
-}
-
-#vision-goals p:nth-of-type(6) {
-  grid-column: 2;
-  grid-row: 4;
-}
-
+#vision-goals p:nth-of-type(1) { grid-column: 1; grid-row: 2; }
+#vision-goals p:nth-of-type(2) { grid-column: 1; grid-row: 3; }
+#vision-goals p:nth-of-type(3) { grid-column: 1; grid-row: 4; }
+#vision-goals p:nth-of-type(4) { grid-column: 2; grid-row: 2; }
+#vision-goals p:nth-of-type(5) { grid-column: 2; grid-row: 3; }
+#vision-goals p:nth-of-type(6) { grid-column: 2; grid-row: 4; }
 @media screen and (max-width: 768px) {
   #vision-goals > div {
     grid-template-columns: 1fr;
     max-width: 800px;
   }
-  
   #vision-goals p:nth-of-type(1),
   #vision-goals p:nth-of-type(2),
   #vision-goals p:nth-of-type(3),
@@ -325,7 +266,6 @@ main > section#film > div {
 form {
   margin-bottom: 1em;
 }
-
 form input[type=email] {
   width: 100%;
   max-width: 25em;
@@ -338,7 +278,6 @@ h3 {
   margin-bottom: 0.5em;
   margin-top: 0;
 }
-
 h3 + p,
 h3 + ul {
   margin-top: 0;
@@ -375,7 +314,7 @@ input[type=submit]:hover {
 }
 
 #footer {
-  background-color: #363dad;
+  background-color: #1a1f7a;
   padding: 1em 0;
   text-align: center;
   color: #dddddd;
@@ -391,7 +330,6 @@ input[type=submit]:hover {
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
-
 .cta-button {
   background-color: transparent;
   color: #ffffff;
@@ -407,22 +345,8 @@ input[type=submit]:hover {
   min-width: 190px;
   text-align: center;
 }
-
 .cta-button:hover {
   color: #ffffff;
-}
-
-.cta-button.primary {
-  background-color: #FBF880;
-  color: #363dad;
-  border-color: #FBF880;
-  box-shadow: 2px 2px 4px rgba(251, 248, 128, 0.3);
-}
-
-.cta-button.primary:hover {
-  background-color: #faf642;
-  border-color: #faf642;
-  color: #363dad;
 }
 
 #introduction {
@@ -446,36 +370,57 @@ input[type=submit]:hover {
 .sessions-table thead tr {
   background-color: transparent !important;
 }
-/* ── New rules appended ── */
 
-#footer {
-  background-color: #1a1f7a;
+/* ── New rules ── */
+
+main > section#film > div {
+  width: 100%;
+  max-width: 1100px;
+}
+main > section#film h3 {
+  text-align: center;
+}
+main > section#film p {
+  width: 100%;
+  margin: 0;
+  white-space: normal;
+}
+main > section#film iframe {
+  display: block;
+  max-width: 100%;
 }
 
 main > section#membership-status {
   background-color: #1a1f7a !important;
   color: #ffffff;
 }
-
 main > section#membership-status a {
   color: #dddddd;
+}
+main > section#membership-status .cta-button.primary {
+  background-color: transparent;
+  color: #FBF880;
+  border-color: #FBF880;
+  border-width: 2px;
+  box-shadow: none;
+}
+main > section#membership-status .cta-button.primary:hover {
+  background-color: #FBF880 !important;
+  border-color: #FBF880 !important;
+  color: #1a1f7a !important;
 }
 
 main > section#duthchas-meaning {
   background-color: rgba(26, 31, 122, 0.85) !important;
 }
-
 main > section#duthchas-meaning p {
   color: #FBF880;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
 }
-
 main > section#duthchas-meaning a {
   color: #FBF880;
-}
-
-main > section#film iframe {
-  max-width: 100%;
-  display: block;
 }
 
 @media screen and (min-width: 769px) {
@@ -489,42 +434,6 @@ main > section#film iframe {
     margin: 0;
   }
 }
-
-main > section#membership-status .cta-button.primary {
-  background-color: transparent;
-  color: #FBF880;
-  border-color: #FBF880;
-  border-width: 2px;
-  box-shadow: none;
-}
-
-main > section#membership-status .cta-button.primary:hover {
-  background-color: #FBF880 !important;
-  border-color: #FBF880 !important;
-  color: #1a1f7a !important;
-}
-
-main > section#film h3 {
-  text-align: center;
-}
-
-main > section#film p {
-  width: 100%;
-  margin: 0;
-}
-
-main > section#film iframe {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-main > section#duthchas-meaning p {
-  font-size: 1.4em;
-  font-weight: 600;
-  text-align: center;
-}
-
 @media screen and (max-width: 768px) {
   .cta-container {
     display: flex;
