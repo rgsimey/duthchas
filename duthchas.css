@@ -461,6 +461,18 @@ main > section#membership-status a {
   color: #dddddd;
 }
 
+main > section#duthchas-meaning {
+  background-color: #1a1f7a !important;
+}
+
+main > section#duthchas-meaning p {
+  color: #FBF880;
+}
+
+main > section#duthchas-meaning a {
+  color: #FBF880;
+}
+
 main > section#film > div {
   max-width: 1100px;
 }
