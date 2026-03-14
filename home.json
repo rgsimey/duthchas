@@ -13,7 +13,7 @@
     },
     {
       "id": "film",
-      "heading": "Woodland Crofting in Arran for Biodiversity",
+      "heading": "Watch Our Video",
       "content": [
         "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/Gj2-XR2Bdrw\" title=\"Woodland Crofting in Arran for Biodiversity\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
       ],
@@ -23,13 +23,13 @@
       "id": "membership-status",
       "heading": "Become a Member",
       "content": [
-        "Society membership is always open. Join 51 members who are already part of Dùthchas Arainn and have your say in how we manage land on Arran for generations to come.",
+        "Society membership is always open. Join 51 members who are already part of Dùthchas Arainn and have your say in how we manage land in Arran for generations to come.",
         "",
-        "Membership requires a minimum of 10 shares (£10). As a member you'll receive updates on the CAT application, invitations to AGMs and community events, and a vote in how the society is run."
+        "Membership requires a minimum of 10 shares (£10). As a member you'll receive updates on the CAT application, invitations to AGMs and other events, and a vote in how the society is run."
       ],
       "cta": [
         {
-          "text": "JOIN ONLINE (£10 MINIMUM)",
+          "text": "JOIN TODAY (£10 MINIMUM)",
           "url": "https://forms.gle/4RuiMHTdDzUDUtG86",
           "target": "_blank",
           "class": "primary"
@@ -72,7 +72,7 @@
     },
     {
       "id": "woodland-crofting",
-      "heading": "Woodland Crofting on Arran",
+      "heading": "Woodland Crofting in Arran",
       "content": [
         "Woodland crofting combines sustainable forestry with small-scale agriculture and affordable housing. Our Glenrickard pilot project will demonstrate how this model can work in Arran, supporting livelihoods while regenerating native woodland and protecting our island's cultural heritage."
       ],
